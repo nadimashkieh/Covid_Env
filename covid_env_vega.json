@@ -1,3557 +1,3823 @@
-[
-    {
-        "id": 100,
-        "name": "Studies on Covid Environmental Factors",
-        "size": 396,
-        "tool_tip": 396
-    },
-    {
-        "id": 200,
-        "name": "Meteorological",
-        "parent": 100,
-        "size": 750,
-        "tool_tip": 75
-    },
-    {
-        "id": 300,
-        "name": "Socioeconomic",
-        "parent": 100,
-        "size": 270,
-        "tool_tip": 27
-    },
-    {
-        "id": 400,
-        "name": "Human Activity",
-        "parent": 100,
-        "size": 300,
-        "tool_tip": 30
-    },
-    {
-        "id": 500,
-        "name": "Health",
-        "parent": 100,
-        "size": 180,
-        "tool_tip": 18
-    },
-    {
-        "id": 201,
-        "name": "Temperature",
-        "parent": 200,
-        "size": 400,
-        "tool_tip": 40
-    },
-    {
-        "id": 202,
-        "name": "Humidity",
-        "parent": 200,
-        "size": 160,
-        "tool_tip": 16
-    },
-    {
-        "id": 203,
-        "name": "Atmospheric Pressure",
-        "parent": 200,
-        "size": 50,
-        "tool_tip": 5
-    },
-    {
-        "id": 204,
-        "name": "Evaporation",
-        "parent": 200,
-        "size": 0,
-        "tool_tip": 0
-    },
-    {
-        "id": 205,
-        "name": "Dew Point",
-        "parent": 200,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 206,
-        "name": "Wind Speed",
-        "parent": 200,
-        "size": 100,
-        "tool_tip": 10
-    },
-    {
-        "id": 207,
-        "name": "Presipitation",
-        "parent": 200,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 208,
-        "name": "UV Light",
-        "parent": 200,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 301,
-        "name": "Racial Inequality",
-        "parent": 300,
-        "size": 40,
-        "tool_tip": 4
-    },
-    {
-        "id": 302,
-        "name": "Gender Inequality",
-        "parent": 300,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 303,
-        "name": "Residence Pattern",
-        "parent": 300,
-        "size": 40,
-        "tool_tip": 4
-    },
-    {
-        "id": 304,
-        "name": "GDP per Capita",
-        "parent": 300,
-        "size": 50,
-        "tool_tip": 5
-    },
-    {
-        "id": 305,
-        "name": "Population",
-        "parent": 300,
-        "size": 70,
-        "tool_tip": 7
-    },
-    {
-        "id": 306,
-        "name": "Income Inequality",
-        "parent": 300,
-        "size": 50,
-        "tool_tip": 5
-    },
-    {
-        "id": 401,
-        "name": "Human Mobility",
-        "parent": 400,
-        "size": 60,
-        "tool_tip": 6
-    },
-    {
-        "id": 402,
-        "name": "Air Polution",
-        "parent": 400,
-        "size": 170,
-        "tool_tip": 17
-    },
-    {
-        "id": 403,
-        "name": "Built Environment",
-        "parent": 400,
-        "size": 70,
-        "tool_tip": 7
-    },
-    {
-        "id": 412,
-        "name": "Pollutant Standard Index",
-        "parent": 402,
-        "size": 110,
-        "tool_tip": 11
-    },
-    {
-        "id": 413,
-        "name": "CO2",
-        "parent": 402,
-        "size": 30,
-        "tool_tip": 3
-    },
-    {
-        "id": 414,
-        "name": "Air Quality Index",
-        "parent": 402,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 415,
-        "name": "N2O",
-        "parent": 402,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 501,
-        "name": "Comorbidity",
-        "parent": 500,
-        "size": 60,
-        "tool_tip": 6
-    },
-    {
-        "id": 502,
-        "name": "Health Care Capacity",
-        "parent": 500,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 503,
-        "name": "Non-pharmaceutical Intervention",
-        "parent": 500,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 504,
-        "name": "Health Inequality",
-        "parent": 500,
-        "size": 40,
-        "tool_tip": 4
-    },
-    {
-        "id": 505,
-        "name": "Age",
-        "parent": 500,
-        "size": 50,
-        "tool_tip": 5
-    },
-    {
-        "id": 506,
-        "name": "Gender Difference",
-        "parent": 500,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 601,
-        "name": "Average Temperature",
-        "parent": 201,
-        "size": 210,
-        "tool_tip": 21
-    },
-    {
-        "id": 602,
-        "name": "Normal Temperature",
-        "parent": 201,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 603,
-        "name": "Minimum Temperature",
-        "parent": 201,
-        "size": 100,
-        "tool_tip": 10
-    },
-    {
-        "id": 604,
-        "name": "Maximum Temperature",
-        "parent": 201,
-        "size": 80,
-        "tool_tip": 8
-    },
-    {
-        "id": 701,
-        "name": "Relative Humidity",
-        "parent": 202,
-        "size": 150,
-        "tool_tip": 15
-    },
-    {
-        "id": 702,
-        "name": "Absolute Humidity",
-        "parent": 202,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9796,
-        "name": "SPC",
-        "parent": 602,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9806,
-        "name": "Menebo, 2020",
-        "parent": 9796,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9816,
-        "name": "NT",
-        "parent": 604,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 9826,
-        "name": "Li et al., 2021a",
-        "parent": 9816,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9836,
-        "name": "Aidoo et al., 2021",
-        "parent": 9816,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9846,
-        "name": "NC",
-        "parent": 604,
-        "size": 30,
-        "tool_tip": 3
-    },
-    {
-        "id": 9856,
-        "name": "Bukhari et al., 2020",
-        "parent": 9846,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9866,
-        "name": "Wang et al., 2020",
-        "parent": 9846,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9876,
-        "name": "Dbouk and Drikakis, 2020b",
-        "parent": 9846,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9886,
-        "name": "PC",
-        "parent": 604,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 9896,
-        "name": "Lasisi & Eluwole, 2021",
-        "parent": 9886,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9906,
-        "name": "Yuan et al., 2020",
-        "parent": 9886,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9916,
-        "name": "WPT",
-        "parent": 604,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9926,
-        "name": "Loch\u00e9 Fern\u00e1ndez-Ah\u00faja & Fern\u00e1ndez Mart\u00ednez, 2021",
-        "parent": 9916,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9936,
-        "name": "NCT",
-        "parent": 604,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9946,
-        "name": "M\u00e9ndez-Arriaga, 2020",
-        "parent": 9936,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9956,
-        "name": "SPC",
-        "parent": 604,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9966,
-        "name": "Menebo, 2020",
-        "parent": 9956,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9976,
-        "name": "I",
-        "parent": 604,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9986,
-        "name": "Tosepu et al., 2020",
-        "parent": 9976,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 9996,
-        "name": "PCT",
-        "parent": 604,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10006,
-        "name": "Wu et al., 2021",
-        "parent": 9996,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10016,
-        "name": "PT",
-        "parent": 601,
-        "size": 90,
-        "tool_tip": 9
-    },
-    {
-        "id": 10026,
-        "name": "Bu et al., 2020",
-        "parent": 10016,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10036,
-        "name": "Aidoo et al., 2021",
-        "parent": 10016,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10046,
-        "name": "Baker et al., 2020",
-        "parent": 10016,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10056,
-        "name": "Tosepu et al., 2020",
-        "parent": 10016,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10066,
-        "name": "Islam et al., 2020 a, b",
-        "parent": 10016,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10076,
-        "name": "Feng et al., 2020",
-        "parent": 10016,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10086,
-        "name": "Sajadi et al., 2020",
-        "parent": 10016,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10096,
-        "name": "Auler et al., 2020",
-        "parent": 10016,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10106,
-        "name": "Abdel-Aal et al., 2021",
-        "parent": 10016,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10116,
-        "name": "I",
-        "parent": 601,
-        "size": 60,
-        "tool_tip": 6
-    },
-    {
-        "id": 10126,
-        "name": "Endeshaw et al. , 2022",
-        "parent": 10116,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10136,
-        "name": "Ahmadi, et al., 2020",
-        "parent": 10116,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10146,
-        "name": "Co\u015fkun et al., 2021",
-        "parent": 10116,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10156,
-        "name": "Carleton et al., 2021",
-        "parent": 10116,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10166,
-        "name": "Pan et al., 2021",
-        "parent": 10116,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10176,
-        "name": "Menebo, 2020",
-        "parent": 10116,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10186,
-        "name": "NT",
-        "parent": 601,
-        "size": 120,
-        "tool_tip": 12
-    },
-    {
-        "id": 10196,
-        "name": "Bherwani et al., 2020",
-        "parent": 10186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10206,
-        "name": "Paraskevis, et al., 2021",
-        "parent": 10186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10216,
-        "name": "Su et al., 2020",
-        "parent": 10186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10226,
-        "name": "Poirier et al., 2020",
-        "parent": 10186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10236,
-        "name": "Shao et al., 2021",
-        "parent": 10186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10246,
-        "name": "Briz-Red\u00f3n & Serrano-Aroca, 2020",
-        "parent": 10186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10256,
-        "name": "Sera et al., 2021",
-        "parent": 10186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10266,
-        "name": "Shi et al., 2020",
-        "parent": 10186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10276,
-        "name": "Babuna, et al., 2021",
-        "parent": 10186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10286,
-        "name": "Liu et al., 2020",
-        "parent": 10186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10296,
-        "name": "Oliveiros et al., 2020",
-        "parent": 10186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10306,
-        "name": "Mecenas et al., 2020",
-        "parent": 10186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10316,
-        "name": "SPTM",
-        "parent": 601,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 10326,
-        "name": "Bashir et al., 2020",
-        "parent": 10316,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10336,
-        "name": "Liu et al., 2021a",
-        "parent": 10316,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10346,
-        "name": "NM",
-        "parent": 601,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10356,
-        "name": "Christophi et al., 2021",
-        "parent": 10346,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10366,
-        "name": "PC",
-        "parent": 601,
-        "size": 70,
-        "tool_tip": 7
-    },
-    {
-        "id": 10376,
-        "name": "Merow & Urban, 2020",
-        "parent": 10366,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10386,
-        "name": "Faruk et al., 2022",
-        "parent": 10366,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10396,
-        "name": "Sangkham et al., 2021",
-        "parent": 10366,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10406,
-        "name": "Xie & Zhu, 2020",
-        "parent": 10366,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10416,
-        "name": "Islam, et al., 2021",
-        "parent": 10366,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10426,
-        "name": "Zoran et al., 2020",
-        "parent": 10366,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10436,
-        "name": "Gupta et al., 2020",
-        "parent": 10366,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10446,
-        "name": "SNC",
-        "parent": 601,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 10456,
-        "name": "Guo et al., 2020",
-        "parent": 10446,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10466,
-        "name": "Meyer et al., 2020",
-        "parent": 10446,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10476,
-        "name": "SRT",
-        "parent": 601,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10486,
-        "name": "Hossain et al., 2021",
-        "parent": 10476,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10496,
-        "name": "SPC",
-        "parent": 601,
-        "size": 30,
-        "tool_tip": 3
-    },
-    {
-        "id": 10506,
-        "name": "Lasisi & Eluwole, 2021",
-        "parent": 10496,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10516,
-        "name": "Lorenzo et al., 2021",
-        "parent": 10496,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10526,
-        "name": "Hridoy et al., 2021",
-        "parent": 10496,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10536,
-        "name": "PCM",
-        "parent": 601,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10546,
-        "name": "Iqbal et al. , 2020",
-        "parent": 10536,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10556,
-        "name": "WRT",
-        "parent": 601,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10566,
-        "name": "Jahangiri et al., 2020",
-        "parent": 10556,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10576,
-        "name": "I ",
-        "parent": 601,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 10586,
-        "name": "Jamil et al., 2020",
-        "parent": 10576,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10596,
-        "name": "Jamshidi et al., 2020",
-        "parent": 10576,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10606,
-        "name": "SPT",
-        "parent": 601,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 10616,
-        "name": "Loch\u00e9 Fern\u00e1ndez-Ah\u00faja & Fern\u00e1ndez Mart\u00ednez, 2021",
-        "parent": 10606,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10626,
-        "name": "Lulbadda et al., 2021",
-        "parent": 10606,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10636,
-        "name": "PM",
-        "parent": 601,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10646,
-        "name": "Ma et al., 2020",
-        "parent": 10636,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10656,
-        "name": "SNT",
-        "parent": 601,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 10666,
-        "name": "Ma et al., 2021",
-        "parent": 10656,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10676,
-        "name": "Nottmeyer & Sera, 2021",
-        "parent": 10656,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10686,
-        "name": "NCT",
-        "parent": 601,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10696,
-        "name": "M\u00e9ndez-Arriaga, 2020",
-        "parent": 10686,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10706,
-        "name": "NC",
-        "parent": 601,
-        "size": 100,
-        "tool_tip": 10
-    },
-    {
-        "id": 10716,
-        "name": "Sobral et al., 2020",
-        "parent": 10706,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10726,
-        "name": "Pahuja et al., 2021",
-        "parent": 10706,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10736,
-        "name": "Yuan et al., 2020",
-        "parent": 10706,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10746,
-        "name": "Qi et al., 2020",
-        "parent": 10706,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10756,
-        "name": "Wang et al., 2020",
-        "parent": 10706,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10766,
-        "name": "Stufano et al., 2021",
-        "parent": 10706,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10776,
-        "name": "\u015eahin, 2020",
-        "parent": 10706,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10786,
-        "name": "Prata et al., 2020",
-        "parent": 10706,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10796,
-        "name": "Rendana, 2020",
-        "parent": 10706,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10806,
-        "name": "Weaver et al., 2022",
-        "parent": 10706,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10816,
-        "name": "WPC",
-        "parent": 601,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10826,
-        "name": "Runkle et al., 2020",
-        "parent": 10816,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10836,
-        "name": "SNCM",
-        "parent": 601,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 10846,
-        "name": "Sarkodie & Owusu, 2020",
-        "parent": 10836,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10856,
-        "name": "Tzampoglou & Loukidis, 2020",
-        "parent": 10836,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10866,
-        "name": "NCM",
-        "parent": 601,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 10876,
-        "name": "Sarmadi et al., 2020",
-        "parent": 10866,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10886,
-        "name": "Wu et al., 2020b",
-        "parent": 10866,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10896,
-        "name": "PCT",
-        "parent": 601,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10906,
-        "name": "Wu et al., 2021",
-        "parent": 10896,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10916,
-        "name": "SPC",
-        "parent": 603,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10926,
-        "name": "Bashir et al., 2020",
-        "parent": 10916,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10936,
-        "name": "NT",
-        "parent": 603,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10946,
-        "name": "Correa-Araneda et al., 2021",
-        "parent": 10936,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10956,
-        "name": "SNC",
-        "parent": 603,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10966,
-        "name": "Endeshaw et al. , 2022",
-        "parent": 10956,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10976,
-        "name": "PC",
-        "parent": 603,
-        "size": 30,
-        "tool_tip": 3
-    },
-    {
-        "id": 10986,
-        "name": "Lasisi & Eluwole, 2021",
-        "parent": 10976,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 10996,
-        "name": "Ficetola & Rubolini, 2021",
-        "parent": 10976,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11006,
-        "name": "Moozhipurath et al., 2020",
-        "parent": 10976,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11016,
-        "name": "PT",
-        "parent": 603,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11026,
-        "name": "Liu et al., 2020",
-        "parent": 11016,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11036,
-        "name": "SPT",
-        "parent": 603,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11046,
-        "name": "Loch\u00e9 Fern\u00e1ndez-Ah\u00faja & Fern\u00e1ndez Mart\u00ednez, 2021",
-        "parent": 11036,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11056,
-        "name": "NCT",
-        "parent": 603,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11066,
-        "name": "M\u00e9ndez-Arriaga, 2020",
-        "parent": 11056,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11076,
-        "name": "I",
-        "parent": 603,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 11086,
-        "name": "Menebo, 2020",
-        "parent": 11076,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11096,
-        "name": "Tosepu et al., 2020",
-        "parent": 11076,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11106,
-        "name": "NC",
-        "parent": 603,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11116,
-        "name": "Wang et al., 2020",
-        "parent": 11106,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11126,
-        "name": "PCT",
-        "parent": 603,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11136,
-        "name": "Wu et al., 2021",
-        "parent": 11126,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11146,
-        "name": "NC",
-        "parent": 701,
-        "size": 60,
-        "tool_tip": 6
-    },
-    {
-        "id": 11156,
-        "name": "Aidoo et al., 2021",
-        "parent": 11146,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11166,
-        "name": "Merow & Urban, 2020",
-        "parent": 11146,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11176,
-        "name": "Guo et al., 2020",
-        "parent": 11146,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11186,
-        "name": "Qi et al., 2020",
-        "parent": 11146,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11196,
-        "name": "\u015eahin, 2020",
-        "parent": 11146,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11206,
-        "name": "Weaver et al., 2022",
-        "parent": 11146,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11216,
-        "name": "PT",
-        "parent": 701,
-        "size": 80,
-        "tool_tip": 8
-    },
-    {
-        "id": 11226,
-        "name": "Bu et al., 2020",
-        "parent": 11216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11236,
-        "name": "Baker et al., 2020",
-        "parent": 11216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11246,
-        "name": "Tzampoglou & Loukidis, 2020",
-        "parent": 11216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11256,
-        "name": "Islam et al., 2020 a, b",
-        "parent": 11216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11266,
-        "name": "Feng et al., 2020",
-        "parent": 11216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11276,
-        "name": "Faruk et al., 2022",
-        "parent": 11216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11286,
-        "name": "Auler et al., 2020",
-        "parent": 11216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11296,
-        "name": "Oliveiros et al., 2020",
-        "parent": 11216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11306,
-        "name": "NT",
-        "parent": 701,
-        "size": 70,
-        "tool_tip": 7
-    },
-    {
-        "id": 11316,
-        "name": "Paraskevis, et al., 2021",
-        "parent": 11306,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11326,
-        "name": "Shakil et al., 2020",
-        "parent": 11306,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11336,
-        "name": "Sajadi et al., 2020",
-        "parent": 11306,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11346,
-        "name": "Babuna, et al., 2021",
-        "parent": 11306,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11356,
-        "name": "Correa-Araneda et al., 2021",
-        "parent": 11306,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11366,
-        "name": "Zoran et al., 2020",
-        "parent": 11306,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11376,
-        "name": "Mecenas et al., 2020",
-        "parent": 11306,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11386,
-        "name": "WPT",
-        "parent": 701,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11396,
-        "name": "Bherwani et al., 2020",
-        "parent": 11386,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11406,
-        "name": "WNT",
-        "parent": 701,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 11416,
-        "name": "Briz-Red\u00f3n & Serrano-Aroca, 2020",
-        "parent": 11406,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11426,
-        "name": "Poirier et al., 2020",
-        "parent": 11406,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11436,
-        "name": "I",
-        "parent": 701,
-        "size": 90,
-        "tool_tip": 9
-    },
-    {
-        "id": 11446,
-        "name": "Tosepu et al., 2020",
-        "parent": 11436,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11456,
-        "name": "Hossain et al., 2021",
-        "parent": 11436,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11466,
-        "name": "Pahuja et al., 2021",
-        "parent": 11436,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11476,
-        "name": "Co\u015fkun et al., 2021",
-        "parent": 11436,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11486,
-        "name": "Shi et al., 2020",
-        "parent": 11436,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11496,
-        "name": "Rendana, 2020",
-        "parent": 11436,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11506,
-        "name": "Carleton et al., 2021",
-        "parent": 11436,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11516,
-        "name": "Pan et al., 2021",
-        "parent": 11436,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11526,
-        "name": "Meyer et al., 2020",
-        "parent": 11436,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11536,
-        "name": "PC",
-        "parent": 701,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 11546,
-        "name": "Sangkham et al., 2021",
-        "parent": 11536,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11556,
-        "name": "Dbouk and Drikakis, 2020b",
-        "parent": 11536,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11566,
-        "name": "SNC",
-        "parent": 701,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 11576,
-        "name": "Endeshaw et al. , 2022",
-        "parent": 11566,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11586,
-        "name": "Lorenzo et al., 2021",
-        "parent": 11566,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11596,
-        "name": "SPC",
-        "parent": 701,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11606,
-        "name": "Hridoy et al., 2021",
-        "parent": 11596,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11616,
-        "name": "PCM",
-        "parent": 701,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11626,
-        "name": "Islam, et al., 2021",
-        "parent": 11616,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11636,
-        "name": "SPT",
-        "parent": 701,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11646,
-        "name": "Lou et al., 2020",
-        "parent": 11636,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11656,
-        "name": "NM",
-        "parent": 701,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 11666,
-        "name": "Nottmeyer & Sera, 2021",
-        "parent": 11656,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11676,
-        "name": "Ma et al., 2020",
-        "parent": 11656,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11686,
-        "name": "NCM",
-        "parent": 701,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11696,
-        "name": "Sarkodie & Owusu, 2020",
-        "parent": 11686,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11706,
-        "name": "SNCM",
-        "parent": 701,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11716,
-        "name": "Wu et al., 2020b",
-        "parent": 11706,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11726,
-        "name": "PCT",
-        "parent": 701,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11736,
-        "name": "Wu et al., 2021",
-        "parent": 11726,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11746,
-        "name": "NT",
-        "parent": 203,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 11756,
-        "name": "Abdel-Aal et al., 2021",
-        "parent": 11746,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11766,
-        "name": "Correa-Araneda et al., 2021",
-        "parent": 11746,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11776,
-        "name": "PT",
-        "parent": 203,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11786,
-        "name": "Aidoo et al., 2021",
-        "parent": 11776,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11796,
-        "name": "I",
-        "parent": 203,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11806,
-        "name": "Hossain et al., 2021",
-        "parent": 11796,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11816,
-        "name": "SNT",
-        "parent": 203,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11826,
-        "name": "Loch\u00e9 Fern\u00e1ndez-Ah\u00faja & Fern\u00e1ndez Mart\u00ednez, 2021",
-        "parent": 11816,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11836,
-        "name": "SPC",
-        "parent": 203,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11846,
-        "name": "Sarkodie & Owusu, 2020",
-        "parent": 11836,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11856,
-        "name": "NC",
-        "parent": 205,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11866,
-        "name": "\u015eahin, 2020",
-        "parent": 11856,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11876,
-        "name": "PC",
-        "parent": 205,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11886,
-        "name": "Sarkodie & Owusu, 2020",
-        "parent": 11876,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11896,
-        "name": "NT",
-        "parent": 206,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11906,
-        "name": "Ahmadi, et al., 2020",
-        "parent": 11896,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11916,
-        "name": "PT",
-        "parent": 206,
-        "size": 30,
-        "tool_tip": 3
-    },
-    {
-        "id": 11926,
-        "name": "Shakil et al., 2020",
-        "parent": 11916,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11936,
-        "name": "Aidoo et al., 2021",
-        "parent": 11916,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11946,
-        "name": "Islam et al., 2020 a, b",
-        "parent": 11916,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11956,
-        "name": "SPT",
-        "parent": 206,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 11966,
-        "name": "Endeshaw et al. , 2022",
-        "parent": 11956,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11976,
-        "name": "Co\u015fkun et al., 2021",
-        "parent": 11956,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 11986,
-        "name": "NC",
-        "parent": 206,
-        "size": 30,
-        "tool_tip": 3
-    },
-    {
-        "id": 11996,
-        "name": "Faruk et al., 2022",
-        "parent": 11986,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12006,
-        "name": "Yuan et al., 2020",
-        "parent": 11986,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12016,
-        "name": "Stufano et al., 2021",
-        "parent": 11986,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12026,
-        "name": "WPC",
-        "parent": 206,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12036,
-        "name": "Guo et al., 2020",
-        "parent": 12026,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12046,
-        "name": "SNT",
-        "parent": 206,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12056,
-        "name": "Hossain et al., 2021",
-        "parent": 12046,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12066,
-        "name": "SPC",
-        "parent": 206,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 12076,
-        "name": "Rendana, 2020",
-        "parent": 12066,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12086,
-        "name": "Hridoy et al., 2021",
-        "parent": 12066,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12096,
-        "name": "NCM",
-        "parent": 206,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12106,
-        "name": "Islam, et al., 2021",
-        "parent": 12096,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12116,
-        "name": "I",
-        "parent": 206,
-        "size": 50,
-        "tool_tip": 5
-    },
-    {
-        "id": 12126,
-        "name": "Menebo, 2020",
-        "parent": 12116,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12136,
-        "name": "Pahuja et al., 2021",
-        "parent": 12116,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12146,
-        "name": "Sera et al., 2021",
-        "parent": 12116,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12156,
-        "name": "Pan et al., 2021",
-        "parent": 12116,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12166,
-        "name": "Oliveiros et al., 2020",
-        "parent": 12116,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12176,
-        "name": "PC",
-        "parent": 206,
-        "size": 30,
-        "tool_tip": 3
-    },
-    {
-        "id": 12186,
-        "name": "\u015eahin, 2020",
-        "parent": 12176,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12196,
-        "name": "Sarkodie & Owusu, 2020",
-        "parent": 12176,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12206,
-        "name": "Sangkham et al., 2021",
-        "parent": 12176,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12216,
-        "name": "PM",
-        "parent": 301,
-        "size": 40,
-        "tool_tip": 4
-    },
-    {
-        "id": 12226,
-        "name": "Bassett et al., 2020",
-        "parent": 12216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12236,
-        "name": "Luo et al., 2020b",
-        "parent": 12216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12246,
-        "name": "Sarmadi et al., 2021",
-        "parent": 12216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12256,
-        "name": "Bryan et al., 2021",
-        "parent": 12216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12266,
-        "name": "PC",
-        "parent": 301,
-        "size": 50,
-        "tool_tip": 5
-    },
-    {
-        "id": 12276,
-        "name": "Hong et al., 2021",
-        "parent": 12266,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12286,
-        "name": "Cox-Ganser & Henneberger, 2021",
-        "parent": 12266,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12296,
-        "name": "Jay et aL, 2020",
-        "parent": 12266,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12306,
-        "name": "Tai et al., 2020",
-        "parent": 12266,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12316,
-        "name": "Bowe et al., 2021",
-        "parent": 12266,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12326,
-        "name": "PCM",
-        "parent": 301,
-        "size": 30,
-        "tool_tip": 3
-    },
-    {
-        "id": 12336,
-        "name": "Zelner et al., 2021",
-        "parent": 12326,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12346,
-        "name": "Torrats-Espinosa, 2021",
-        "parent": 12326,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12356,
-        "name": "Weaver et al., 2022",
-        "parent": 12326,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12366,
-        "name": "PT",
-        "parent": 301,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12376,
-        "name": "Zalla et al., 2021",
-        "parent": 12366,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12386,
-        "name": "PM",
-        "parent": 302,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12396,
-        "name": "Li et al., 2021a",
-        "parent": 12386,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12406,
-        "name": "PT",
-        "parent": 302,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12416,
-        "name": "Salerno et al., 2020",
-        "parent": 12406,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12426,
-        "name": "PT",
-        "parent": 303,
-        "size": 80,
-        "tool_tip": 8
-    },
-    {
-        "id": 12436,
-        "name": "Ahmad et al., 2020",
-        "parent": 12426,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12446,
-        "name": "Qian et al., 2021",
-        "parent": 12426,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12456,
-        "name": "Lenward et al., 2021",
-        "parent": 12426,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12466,
-        "name": "Rader et al., 2020",
-        "parent": 12426,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12476,
-        "name": "Saloner et al., 2020",
-        "parent": 12426,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12486,
-        "name": "Leibowitz et al., 2021",
-        "parent": 12426,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12496,
-        "name": "Emeruwa et al., 2020",
-        "parent": 12426,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12506,
-        "name": "Weaver et al., 2022",
-        "parent": 12426,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12516,
-        "name": "PM",
-        "parent": 303,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 12526,
-        "name": "Esteve et al. , 2020",
-        "parent": 12516,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12536,
-        "name": "Bryan et al., 2021",
-        "parent": 12516,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12546,
-        "name": "PC",
-        "parent": 303,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 12556,
-        "name": "Hong et al., 2021",
-        "parent": 12546,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12566,
-        "name": "Kwok et al,, 2021",
-        "parent": 12546,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12576,
-        "name": "PCM",
-        "parent": 303,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12586,
-        "name": "Li et al., 2021a",
-        "parent": 12576,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12596,
-        "name": "WRCM",
-        "parent": 304,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12606,
-        "name": "Chakraborti et al., 2021",
-        "parent": 12596,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12616,
-        "name": "SNM",
-        "parent": 304,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12626,
-        "name": "Chaudhry et al., 2020",
-        "parent": 12616,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12636,
-        "name": "NM",
-        "parent": 304,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12646,
-        "name": "Liang et al. , 2020",
-        "parent": 12636,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12656,
-        "name": "I",
-        "parent": 304,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12666,
-        "name": "Lulbadda et al., 2021",
-        "parent": 12656,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12676,
-        "name": "PC",
-        "parent": 304,
-        "size": 30,
-        "tool_tip": 3
-    },
-    {
-        "id": 12686,
-        "name": "Sarmadi et al., 2020",
-        "parent": 12676,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12696,
-        "name": "Sarmadi et al., 2021",
-        "parent": 12676,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12706,
-        "name": "Wu et al., 2021",
-        "parent": 12676,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12716,
-        "name": "PC",
-        "parent": 305,
-        "size": 40,
-        "tool_tip": 4
-    },
-    {
-        "id": 12726,
-        "name": "\u015eahin, 2020",
-        "parent": 12716,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12736,
-        "name": "Li et al., 2021a",
-        "parent": 12716,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12746,
-        "name": "Ahmadi, et al., 2020",
-        "parent": 12716,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12756,
-        "name": "Duhon et al., 2021",
-        "parent": 12716,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12766,
-        "name": "SPCM",
-        "parent": 305,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12776,
-        "name": "Chakraborti et al., 2021",
-        "parent": 12766,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12786,
-        "name": "SPT",
-        "parent": 305,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 12796,
-        "name": "Lulbadda et al., 2021",
-        "parent": 12786,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12806,
-        "name": "Co\u015fkun et al., 2021",
-        "parent": 12786,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12816,
-        "name": "PT",
-        "parent": 305,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 12826,
-        "name": "Jamshidi et al., 2020",
-        "parent": 12816,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12836,
-        "name": "Jahangiri et al., 2020",
-        "parent": 12816,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12846,
-        "name": "PCM",
-        "parent": 305,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 12856,
-        "name": "Rockl\u00f6v and Sj\u00f6din\u00a0, 2020",
-        "parent": 12846,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12866,
-        "name": "Wu et al., 2021",
-        "parent": 12846,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12876,
-        "name": "PM",
-        "parent": 305,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12886,
-        "name": "Sarmadi et al., 2021",
-        "parent": 12876,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12896,
-        "name": "WPC",
-        "parent": 305,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12906,
-        "name": "Tzampoglou & Loukidis, 2020",
-        "parent": 12896,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12916,
-        "name": "PM",
-        "parent": 306,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 12926,
-        "name": "Luo et al., 2020b",
-        "parent": 12916,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12936,
-        "name": "Chaudhry et al., 2020",
-        "parent": 12916,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12946,
-        "name": "NC",
-        "parent": 306,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12956,
-        "name": "Duhon et al., 2021",
-        "parent": 12946,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12966,
-        "name": "PCM",
-        "parent": 306,
-        "size": 30,
-        "tool_tip": 3
-    },
-    {
-        "id": 12976,
-        "name": "Sarmadi et al., 2021",
-        "parent": 12966,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12986,
-        "name": "Weaver et al., 2022",
-        "parent": 12966,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 12996,
-        "name": "Jay et aL, 2020",
-        "parent": 12966,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13006,
-        "name": "PT",
-        "parent": 306,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13016,
-        "name": "Li et al., 2021a",
-        "parent": 13006,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13026,
-        "name": "SPCM",
-        "parent": 306,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13036,
-        "name": "Maiti et al., 2021",
-        "parent": 13026,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13046,
-        "name": "PT",
-        "parent": 401,
-        "size": 50,
-        "tool_tip": 5
-    },
-    {
-        "id": 13056,
-        "name": "Qian et al., 2021",
-        "parent": 13046,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13066,
-        "name": "Baniasad et al., 2021",
-        "parent": 13046,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13076,
-        "name": "Shao et al., 2021",
-        "parent": 13046,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13086,
-        "name": "Wu et al., 2021",
-        "parent": 13046,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13096,
-        "name": "Rader et al., 2020",
-        "parent": 13046,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13106,
-        "name": "PC",
-        "parent": 401,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 13116,
-        "name": "Li et al., 2021a",
-        "parent": 13106,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13126,
-        "name": "Chakraborti et al., 2021",
-        "parent": 13106,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13136,
-        "name": "WPT",
-        "parent": 401,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 13146,
-        "name": "Chinazzi et al., 2020",
-        "parent": 13136,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13156,
-        "name": "Poirier et al., 2020",
-        "parent": 13136,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13166,
-        "name": "SPC",
-        "parent": 401,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13176,
-        "name": "Eltoukhy et al. , 2020",
-        "parent": 13166,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13186,
-        "name": "PM",
-        "parent": 401,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 13196,
-        "name": "Luo et al., 2020b",
-        "parent": 13186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13206,
-        "name": "Hadjidemetriou et al., 2020",
-        "parent": 13186,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13216,
-        "name": "SPT",
-        "parent": 401,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13226,
-        "name": "Jamshidi et al., 2020",
-        "parent": 13216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13236,
-        "name": "PT",
-        "parent": 403,
-        "size": 60,
-        "tool_tip": 6
-    },
-    {
-        "id": 13246,
-        "name": "Ahmad et al., 2020",
-        "parent": 13236,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13256,
-        "name": "Lenward et al., 2021",
-        "parent": 13236,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13266,
-        "name": "Rader et al., 2020",
-        "parent": 13236,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13276,
-        "name": "Emeruwa et al., 2020",
-        "parent": 13236,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13286,
-        "name": "Weaver et al., 2022",
-        "parent": 13236,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13296,
-        "name": "Rahman et al., 2020",
-        "parent": 13236,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13306,
-        "name": "NT",
-        "parent": 403,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13316,
-        "name": "Allen & Ibrahim, 2021",
-        "parent": 13306,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13326,
-        "name": "PC",
-        "parent": 403,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 13336,
-        "name": "Bowe et al., 2021",
-        "parent": 13326,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13346,
-        "name": "Cox-Ganser & Henneberger, 2021",
-        "parent": 13326,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13356,
-        "name": "WRT ",
-        "parent": 403,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13366,
-        "name": "Harvey et al., 2021",
-        "parent": 13356,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13376,
-        "name": "PTM",
-        "parent": 403,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13386,
-        "name": "Hong et al., 2021",
-        "parent": 13376,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13396,
-        "name": "SPC",
-        "parent": 403,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13406,
-        "name": "Kwok et al,, 2021",
-        "parent": 13396,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13416,
-        "name": "NM",
-        "parent": 403,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13426,
-        "name": "Liang et al. , 2020",
-        "parent": 13416,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13436,
-        "name": "SPCM",
-        "parent": 501,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13446,
-        "name": "Chakraborti et al., 2021",
-        "parent": 13436,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13456,
-        "name": "PCM",
-        "parent": 501,
-        "size": 40,
-        "tool_tip": 4
-    },
-    {
-        "id": 13466,
-        "name": "Weaver et al., 2022",
-        "parent": 13456,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13476,
-        "name": "Sarmadi et al., 2021",
-        "parent": 13456,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13486,
-        "name": "Chaudhry et al., 2020",
-        "parent": 13456,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13496,
-        "name": "Sattar et al., 2020",
-        "parent": 13456,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13506,
-        "name": "PM",
-        "parent": 501,
-        "size": 60,
-        "tool_tip": 6
-    },
-    {
-        "id": 13516,
-        "name": "Luo et al., 2020a",
-        "parent": 13506,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13526,
-        "name": "Luo et al., 2020b",
-        "parent": 13506,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13536,
-        "name": "Clark et al. , 2020",
-        "parent": 13506,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13546,
-        "name": "Guan et al., 2020",
-        "parent": 13506,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13556,
-        "name": "Grandjean et al. , 2020",
-        "parent": 13506,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13566,
-        "name": "Du et al., 2020",
-        "parent": 13506,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13576,
-        "name": "PC",
-        "parent": 501,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13586,
-        "name": "Duhon et al., 2021",
-        "parent": 13576,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13596,
-        "name": "NTM",
-        "parent": 501,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13606,
-        "name": "Li et al., 2021a",
-        "parent": 13596,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13616,
-        "name": "SPM",
-        "parent": 501,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13626,
-        "name": "Muniyappa & Gubbi, 2020",
-        "parent": 13616,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13636,
-        "name": "PM",
-        "parent": 504,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 13646,
-        "name": "Tai et al., 2020",
-        "parent": 13636,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13656,
-        "name": "Bryan et al., 2021",
-        "parent": 13636,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13666,
-        "name": "PC",
-        "parent": 504,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 13676,
-        "name": "Hong et al., 2021",
-        "parent": 13666,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13686,
-        "name": "Sarmadi et al., 2021",
-        "parent": 13666,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13696,
-        "name": "PT",
-        "parent": 504,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13706,
-        "name": "Salerno et al., 2020",
-        "parent": 13696,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13716,
-        "name": "PCM",
-        "parent": 504,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13726,
-        "name": "Weaver et al., 2022",
-        "parent": 13716,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13736,
-        "name": "PC",
-        "parent": 505,
-        "size": 30,
-        "tool_tip": 3
-    },
-    {
-        "id": 13746,
-        "name": "Su et al., 2020",
-        "parent": 13736,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13756,
-        "name": "Lulbadda et al., 2021",
-        "parent": 13736,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13766,
-        "name": "Chaudhry et al., 2020",
-        "parent": 13736,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13776,
-        "name": "PM",
-        "parent": 505,
-        "size": 60,
-        "tool_tip": 6
-    },
-    {
-        "id": 13786,
-        "name": "Liang et al. , 2020",
-        "parent": 13776,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13796,
-        "name": "Luo et al., 2020a",
-        "parent": 13776,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13806,
-        "name": "Clark et al. , 2020",
-        "parent": 13776,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13816,
-        "name": "Tzampoglou & Loukidis, 2020",
-        "parent": 13776,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13826,
-        "name": "Chen et al., 2021",
-        "parent": 13776,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13836,
-        "name": "Du et al., 2020",
-        "parent": 13776,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13846,
-        "name": "NC ",
-        "parent": 505,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13856,
-        "name": "Li et al., 2021a",
-        "parent": 13846,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13866,
-        "name": "NC",
-        "parent": 505,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13876,
-        "name": "Okeahalam et al., 2020",
-        "parent": 13866,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13886,
-        "name": "PCM",
-        "parent": 505,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13896,
-        "name": "Rahman et al., 2020",
-        "parent": 13886,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13906,
-        "name": "PM",
-        "parent": 506,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13916,
-        "name": "Peckham et al., 2020",
-        "parent": 13906,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13926,
-        "name": "PM",
-        "parent": 412,
-        "size": 90,
-        "tool_tip": 9
-    },
-    {
-        "id": 13936,
-        "name": "Gupta et al., 2021",
-        "parent": 13926,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13946,
-        "name": "Anil and Alagha, 2020",
-        "parent": 13926,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13956,
-        "name": "Ogen, 2020",
-        "parent": 13926,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13966,
-        "name": "Luo et al., 2020b",
-        "parent": 13926,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13976,
-        "name": "Islam et al., 2020 a, b",
-        "parent": 13926,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13986,
-        "name": "Baniasad et al., 2021",
-        "parent": 13926,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 13996,
-        "name": "Magazzino et al., 2020",
-        "parent": 13926,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14006,
-        "name": "Pozzer et al., 2020",
-        "parent": 13926,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14016,
-        "name": "Mele & Magazzino, 2020",
-        "parent": 13926,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14026,
-        "name": "PC",
-        "parent": 412,
-        "size": 80,
-        "tool_tip": 8
-    },
-    {
-        "id": 14036,
-        "name": "Zhu et al., 2020",
-        "parent": 14026,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14046,
-        "name": "Faruk et al., 2022",
-        "parent": 14026,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14056,
-        "name": "Stufano et al., 2021",
-        "parent": 14026,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14066,
-        "name": "Lorenzo et al., 2021",
-        "parent": 14026,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14076,
-        "name": "Frontera, 2020",
-        "parent": 14026,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14086,
-        "name": "Bashir et al., 2020",
-        "parent": 14026,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14096,
-        "name": "Zoran et al., 2020",
-        "parent": 14026,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14106,
-        "name": "Bowe et al., 2021",
-        "parent": 14026,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14116,
-        "name": "SPCM",
-        "parent": 412,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14126,
-        "name": "Chakraborti et al., 2021",
-        "parent": 14116,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14136,
-        "name": "PCM",
-        "parent": 412,
-        "size": 50,
-        "tool_tip": 5
-    },
-    {
-        "id": 14146,
-        "name": "Coker et al., 2020",
-        "parent": 14136,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14156,
-        "name": "Lipsitt et al. , 2021",
-        "parent": 14136,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14166,
-        "name": "Travaglio et al., 2021",
-        "parent": 14136,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14176,
-        "name": "Weaver et al., 2022",
-        "parent": 14136,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14186,
-        "name": "Cole et al. , 2020",
-        "parent": 14136,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14196,
-        "name": "I",
-        "parent": 412,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14206,
-        "name": "Co\u015fkun et al., 2021",
-        "parent": 14196,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14216,
-        "name": "SPT",
-        "parent": 412,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14226,
-        "name": "Duhon et al., 2021",
-        "parent": 14216,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14236,
-        "name": "SPCT",
-        "parent": 412,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14246,
-        "name": "Fattorini & Rigoli, 2020",
-        "parent": 14236,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14256,
-        "name": "WPT",
-        "parent": 412,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14266,
-        "name": "Ficetola & Rubolini, 2021",
-        "parent": 14256,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14276,
-        "name": "SNC",
-        "parent": 412,
-        "size": 20,
-        "tool_tip": 2
-    },
-    {
-        "id": 14286,
-        "name": "Sangkham et al., 2021",
-        "parent": 14276,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14296,
-        "name": "Hossain et al., 2021",
-        "parent": 14276,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14306,
-        "name": "SNM",
-        "parent": 412,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14316,
-        "name": "Ma et al., 2020",
-        "parent": 14306,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14326,
-        "name": "PT",
-        "parent": 412,
-        "size": 40,
-        "tool_tip": 4
-    },
-    {
-        "id": 14336,
-        "name": "Paraskevis, et al., 2021",
-        "parent": 14326,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14346,
-        "name": "Setti et al., 2020a,",
-        "parent": 14326,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14356,
-        "name": "Sarmadi et al., 2021",
-        "parent": 14326,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14366,
-        "name": "Shakil et al., 2020",
-        "parent": 14326,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14376,
-        "name": "SPCM",
-        "parent": 413,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14386,
-        "name": "Chakraborti et al., 2021",
-        "parent": 14376,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14396,
-        "name": "I",
-        "parent": 413,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14406,
-        "name": "Eltoukhy et al. , 2020",
-        "parent": 14396,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14416,
-        "name": "PM",
-        "parent": 413,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14426,
-        "name": "Mele & Magazzino, 2020",
-        "parent": 14416,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14436,
-        "name": "SNCM",
-        "parent": 414,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14446,
-        "name": "Bashir et al., 2020",
-        "parent": 14436,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14456,
-        "name": "NC",
-        "parent": 414,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14466,
-        "name": "Faruk et al., 2022",
-        "parent": 14456,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14476,
-        "name": "PCM",
-        "parent": 415,
-        "size": 10,
-        "tool_tip": 1
-    },
-    {
-        "id": 14486,
-        "name": "Chakraborti et al., 2021",
-        "parent": 14476,
-        "size": 10,
-        "tool_tip": 1
-    }
-]
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "description": "Studies on Covid Environments - Diagram of hierarchical data.",
+    "width": 1000,
+    "height": 1000,
+    "padding": 5,
+    "autosize": "none",
+    "signals": [
+        {
+            "name": "labels",
+            "value": true,
+            "bind": {
+                "input": "checkbox"
+            }
+        },
+        {
+            "name": "radius",
+            "value": 400,
+            "bind": {
+                "input": "range",
+                "min": 20,
+                "max": 1000
+            }
+        },
+        {
+            "name": "extent",
+            "value": 360,
+            "bind": {
+                "input": "range",
+                "min": 0,
+                "max": 360,
+                "step": 1
+            }
+        },
+        {
+            "name": "rotate",
+            "value": 0,
+            "bind": {
+                "input": "range",
+                "min": 0,
+                "max": 360,
+                "step": 1
+            }
+        },
+        {
+            "name": "layout",
+            "value": "tidy",
+            "bind": {
+                "input": "radio",
+                "options": [
+                    "tidy",
+                    "cluster"
+                ]
+            }
+        },
+        {
+            "name": "links",
+            "value": "line",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "line",
+                    "curve",
+                    "diagonal",
+                    "orthogonal"
+                ]
+            }
+        },
+        {
+            "name": "originX",
+            "update": "width / 2"
+        },
+        {
+            "name": "originY",
+            "update": "height / 2"
+        }
+    ],
+    "data": [
+        {
+            "name": "tree",
+            "values": [
+                {
+                    "id": 100,
+                    "name": "Studies on Covid Environmental Factors",
+                    "size": 396,
+                    "tool_tip": 396
+                },
+                {
+                    "id": 200,
+                    "name": "Meteorological",
+                    "parent": 100,
+                    "size": 750,
+                    "tool_tip": 75
+                },
+                {
+                    "id": 300,
+                    "name": "Socioeconomic",
+                    "parent": 100,
+                    "size": 270,
+                    "tool_tip": 27
+                },
+                {
+                    "id": 400,
+                    "name": "Human Activity",
+                    "parent": 100,
+                    "size": 300,
+                    "tool_tip": 30
+                },
+                {
+                    "id": 500,
+                    "name": "Health",
+                    "parent": 100,
+                    "size": 180,
+                    "tool_tip": 18
+                },
+                {
+                    "id": 201,
+                    "name": "Temperature",
+                    "parent": 200,
+                    "size": 400,
+                    "tool_tip": 40
+                },
+                {
+                    "id": 202,
+                    "name": "Humidity",
+                    "parent": 200,
+                    "size": 160,
+                    "tool_tip": 16
+                },
+                {
+                    "id": 203,
+                    "name": "Atmospheric Pressure",
+                    "parent": 200,
+                    "size": 50,
+                    "tool_tip": 5
+                },
+                {
+                    "id": 204,
+                    "name": "Evaporation",
+                    "parent": 200,
+                    "size": 0,
+                    "tool_tip": 0
+                },
+                {
+                    "id": 205,
+                    "name": "Dew Point",
+                    "parent": 200,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 206,
+                    "name": "Wind Speed",
+                    "parent": 200,
+                    "size": 100,
+                    "tool_tip": 10
+                },
+                {
+                    "id": 207,
+                    "name": "Presipitation",
+                    "parent": 200,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 208,
+                    "name": "UV Light",
+                    "parent": 200,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 301,
+                    "name": "Racial Inequality",
+                    "parent": 300,
+                    "size": 40,
+                    "tool_tip": 4
+                },
+                {
+                    "id": 302,
+                    "name": "Gender Inequality",
+                    "parent": 300,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 303,
+                    "name": "Residence Pattern",
+                    "parent": 300,
+                    "size": 40,
+                    "tool_tip": 4
+                },
+                {
+                    "id": 304,
+                    "name": "GDP per Capita",
+                    "parent": 300,
+                    "size": 50,
+                    "tool_tip": 5
+                },
+                {
+                    "id": 305,
+                    "name": "Population",
+                    "parent": 300,
+                    "size": 70,
+                    "tool_tip": 7
+                },
+                {
+                    "id": 306,
+                    "name": "Income Inequality",
+                    "parent": 300,
+                    "size": 50,
+                    "tool_tip": 5
+                },
+                {
+                    "id": 401,
+                    "name": "Human Mobility",
+                    "parent": 400,
+                    "size": 60,
+                    "tool_tip": 6
+                },
+                {
+                    "id": 402,
+                    "name": "Air Polution",
+                    "parent": 400,
+                    "size": 170,
+                    "tool_tip": 17
+                },
+                {
+                    "id": 403,
+                    "name": "Built Environment",
+                    "parent": 400,
+                    "size": 70,
+                    "tool_tip": 7
+                },
+                {
+                    "id": 412,
+                    "name": "Pollutant Standard Index",
+                    "parent": 402,
+                    "size": 110,
+                    "tool_tip": 11
+                },
+                {
+                    "id": 413,
+                    "name": "CO2",
+                    "parent": 402,
+                    "size": 30,
+                    "tool_tip": 3
+                },
+                {
+                    "id": 414,
+                    "name": "Air Quality Index",
+                    "parent": 402,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 415,
+                    "name": "N2O",
+                    "parent": 402,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 501,
+                    "name": "Comorbidity",
+                    "parent": 500,
+                    "size": 60,
+                    "tool_tip": 6
+                },
+                {
+                    "id": 502,
+                    "name": "Health Care Capacity",
+                    "parent": 500,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 503,
+                    "name": "Non-pharmaceutical Intervention",
+                    "parent": 500,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 504,
+                    "name": "Health Inequality",
+                    "parent": 500,
+                    "size": 40,
+                    "tool_tip": 4
+                },
+                {
+                    "id": 505,
+                    "name": "Age",
+                    "parent": 500,
+                    "size": 50,
+                    "tool_tip": 5
+                },
+                {
+                    "id": 506,
+                    "name": "Gender Difference",
+                    "parent": 500,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 601,
+                    "name": "Average Temperature",
+                    "parent": 201,
+                    "size": 210,
+                    "tool_tip": 21
+                },
+                {
+                    "id": 602,
+                    "name": "Normal Temperature",
+                    "parent": 201,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 603,
+                    "name": "Minimum Temperature",
+                    "parent": 201,
+                    "size": 100,
+                    "tool_tip": 10
+                },
+                {
+                    "id": 604,
+                    "name": "Maximum Temperature",
+                    "parent": 201,
+                    "size": 80,
+                    "tool_tip": 8
+                },
+                {
+                    "id": 701,
+                    "name": "Relative Humidity",
+                    "parent": 202,
+                    "size": 150,
+                    "tool_tip": 15
+                },
+                {
+                    "id": 702,
+                    "name": "Absolute Humidity",
+                    "parent": 202,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9796,
+                    "name": "SPC",
+                    "parent": 602,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9806,
+                    "name": "Menebo, 2020",
+                    "parent": 9796,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9816,
+                    "name": "NT",
+                    "parent": 604,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 9826,
+                    "name": "Li et al., 2021a",
+                    "parent": 9816,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9836,
+                    "name": "Aidoo et al., 2021",
+                    "parent": 9816,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9846,
+                    "name": "NC",
+                    "parent": 604,
+                    "size": 30,
+                    "tool_tip": 3
+                },
+                {
+                    "id": 9856,
+                    "name": "Bukhari et al., 2020",
+                    "parent": 9846,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9866,
+                    "name": "Wang et al., 2020",
+                    "parent": 9846,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9876,
+                    "name": "Dbouk and Drikakis, 2020b",
+                    "parent": 9846,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9886,
+                    "name": "PC",
+                    "parent": 604,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 9896,
+                    "name": "Lasisi & Eluwole, 2021",
+                    "parent": 9886,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9906,
+                    "name": "Yuan et al., 2020",
+                    "parent": 9886,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9916,
+                    "name": "WPT",
+                    "parent": 604,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9926,
+                    "name": "Loch\u00e9 Fern\u00e1ndez-Ah\u00faja & Fern\u00e1ndez Mart\u00ednez, 2021",
+                    "parent": 9916,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9936,
+                    "name": "NCT",
+                    "parent": 604,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9946,
+                    "name": "M\u00e9ndez-Arriaga, 2020",
+                    "parent": 9936,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9956,
+                    "name": "SPC",
+                    "parent": 604,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9966,
+                    "name": "Menebo, 2020",
+                    "parent": 9956,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9976,
+                    "name": "I",
+                    "parent": 604,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9986,
+                    "name": "Tosepu et al., 2020",
+                    "parent": 9976,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 9996,
+                    "name": "PCT",
+                    "parent": 604,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10006,
+                    "name": "Wu et al., 2021",
+                    "parent": 9996,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10016,
+                    "name": "PT",
+                    "parent": 601,
+                    "size": 90,
+                    "tool_tip": 9
+                },
+                {
+                    "id": 10026,
+                    "name": "Bu et al., 2020",
+                    "parent": 10016,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10036,
+                    "name": "Aidoo et al., 2021",
+                    "parent": 10016,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10046,
+                    "name": "Baker et al., 2020",
+                    "parent": 10016,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10056,
+                    "name": "Tosepu et al., 2020",
+                    "parent": 10016,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10066,
+                    "name": "Islam et al., 2020 a, b",
+                    "parent": 10016,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10076,
+                    "name": "Feng et al., 2020",
+                    "parent": 10016,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10086,
+                    "name": "Sajadi et al., 2020",
+                    "parent": 10016,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10096,
+                    "name": "Auler et al., 2020",
+                    "parent": 10016,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10106,
+                    "name": "Abdel-Aal et al., 2021",
+                    "parent": 10016,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10116,
+                    "name": "I",
+                    "parent": 601,
+                    "size": 60,
+                    "tool_tip": 6
+                },
+                {
+                    "id": 10126,
+                    "name": "Endeshaw et al. , 2022",
+                    "parent": 10116,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10136,
+                    "name": "Ahmadi, et al., 2020",
+                    "parent": 10116,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10146,
+                    "name": "Co\u015fkun et al., 2021",
+                    "parent": 10116,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10156,
+                    "name": "Carleton et al., 2021",
+                    "parent": 10116,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10166,
+                    "name": "Pan et al., 2021",
+                    "parent": 10116,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10176,
+                    "name": "Menebo, 2020",
+                    "parent": 10116,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10186,
+                    "name": "NT",
+                    "parent": 601,
+                    "size": 120,
+                    "tool_tip": 12
+                },
+                {
+                    "id": 10196,
+                    "name": "Bherwani et al., 2020",
+                    "parent": 10186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10206,
+                    "name": "Paraskevis, et al., 2021",
+                    "parent": 10186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10216,
+                    "name": "Su et al., 2020",
+                    "parent": 10186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10226,
+                    "name": "Poirier et al., 2020",
+                    "parent": 10186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10236,
+                    "name": "Shao et al., 2021",
+                    "parent": 10186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10246,
+                    "name": "Briz-Red\u00f3n & Serrano-Aroca, 2020",
+                    "parent": 10186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10256,
+                    "name": "Sera et al., 2021",
+                    "parent": 10186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10266,
+                    "name": "Shi et al., 2020",
+                    "parent": 10186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10276,
+                    "name": "Babuna, et al., 2021",
+                    "parent": 10186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10286,
+                    "name": "Liu et al., 2020",
+                    "parent": 10186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10296,
+                    "name": "Oliveiros et al., 2020",
+                    "parent": 10186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10306,
+                    "name": "Mecenas et al., 2020",
+                    "parent": 10186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10316,
+                    "name": "SPTM",
+                    "parent": 601,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 10326,
+                    "name": "Bashir et al., 2020",
+                    "parent": 10316,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10336,
+                    "name": "Liu et al., 2021a",
+                    "parent": 10316,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10346,
+                    "name": "NM",
+                    "parent": 601,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10356,
+                    "name": "Christophi et al., 2021",
+                    "parent": 10346,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10366,
+                    "name": "PC",
+                    "parent": 601,
+                    "size": 70,
+                    "tool_tip": 7
+                },
+                {
+                    "id": 10376,
+                    "name": "Merow & Urban, 2020",
+                    "parent": 10366,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10386,
+                    "name": "Faruk et al., 2022",
+                    "parent": 10366,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10396,
+                    "name": "Sangkham et al., 2021",
+                    "parent": 10366,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10406,
+                    "name": "Xie & Zhu, 2020",
+                    "parent": 10366,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10416,
+                    "name": "Islam, et al., 2021",
+                    "parent": 10366,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10426,
+                    "name": "Zoran et al., 2020",
+                    "parent": 10366,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10436,
+                    "name": "Gupta et al., 2020",
+                    "parent": 10366,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10446,
+                    "name": "SNC",
+                    "parent": 601,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 10456,
+                    "name": "Guo et al., 2020",
+                    "parent": 10446,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10466,
+                    "name": "Meyer et al., 2020",
+                    "parent": 10446,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10476,
+                    "name": "SRT",
+                    "parent": 601,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10486,
+                    "name": "Hossain et al., 2021",
+                    "parent": 10476,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10496,
+                    "name": "SPC",
+                    "parent": 601,
+                    "size": 30,
+                    "tool_tip": 3
+                },
+                {
+                    "id": 10506,
+                    "name": "Lasisi & Eluwole, 2021",
+                    "parent": 10496,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10516,
+                    "name": "Lorenzo et al., 2021",
+                    "parent": 10496,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10526,
+                    "name": "Hridoy et al., 2021",
+                    "parent": 10496,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10536,
+                    "name": "PCM",
+                    "parent": 601,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10546,
+                    "name": "Iqbal et al. , 2020",
+                    "parent": 10536,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10556,
+                    "name": "WRT",
+                    "parent": 601,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10566,
+                    "name": "Jahangiri et al., 2020",
+                    "parent": 10556,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10576,
+                    "name": "I ",
+                    "parent": 601,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 10586,
+                    "name": "Jamil et al., 2020",
+                    "parent": 10576,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10596,
+                    "name": "Jamshidi et al., 2020",
+                    "parent": 10576,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10606,
+                    "name": "SPT",
+                    "parent": 601,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 10616,
+                    "name": "Loch\u00e9 Fern\u00e1ndez-Ah\u00faja & Fern\u00e1ndez Mart\u00ednez, 2021",
+                    "parent": 10606,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10626,
+                    "name": "Lulbadda et al., 2021",
+                    "parent": 10606,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10636,
+                    "name": "PM",
+                    "parent": 601,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10646,
+                    "name": "Ma et al., 2020",
+                    "parent": 10636,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10656,
+                    "name": "SNT",
+                    "parent": 601,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 10666,
+                    "name": "Ma et al., 2021",
+                    "parent": 10656,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10676,
+                    "name": "Nottmeyer & Sera, 2021",
+                    "parent": 10656,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10686,
+                    "name": "NCT",
+                    "parent": 601,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10696,
+                    "name": "M\u00e9ndez-Arriaga, 2020",
+                    "parent": 10686,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10706,
+                    "name": "NC",
+                    "parent": 601,
+                    "size": 100,
+                    "tool_tip": 10
+                },
+                {
+                    "id": 10716,
+                    "name": "Sobral et al., 2020",
+                    "parent": 10706,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10726,
+                    "name": "Pahuja et al., 2021",
+                    "parent": 10706,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10736,
+                    "name": "Yuan et al., 2020",
+                    "parent": 10706,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10746,
+                    "name": "Qi et al., 2020",
+                    "parent": 10706,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10756,
+                    "name": "Wang et al., 2020",
+                    "parent": 10706,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10766,
+                    "name": "Stufano et al., 2021",
+                    "parent": 10706,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10776,
+                    "name": "\u015eahin, 2020",
+                    "parent": 10706,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10786,
+                    "name": "Prata et al., 2020",
+                    "parent": 10706,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10796,
+                    "name": "Rendana, 2020",
+                    "parent": 10706,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10806,
+                    "name": "Weaver et al., 2022",
+                    "parent": 10706,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10816,
+                    "name": "WPC",
+                    "parent": 601,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10826,
+                    "name": "Runkle et al., 2020",
+                    "parent": 10816,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10836,
+                    "name": "SNCM",
+                    "parent": 601,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 10846,
+                    "name": "Sarkodie & Owusu, 2020",
+                    "parent": 10836,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10856,
+                    "name": "Tzampoglou & Loukidis, 2020",
+                    "parent": 10836,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10866,
+                    "name": "NCM",
+                    "parent": 601,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 10876,
+                    "name": "Sarmadi et al., 2020",
+                    "parent": 10866,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10886,
+                    "name": "Wu et al., 2020b",
+                    "parent": 10866,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10896,
+                    "name": "PCT",
+                    "parent": 601,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10906,
+                    "name": "Wu et al., 2021",
+                    "parent": 10896,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10916,
+                    "name": "SPC",
+                    "parent": 603,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10926,
+                    "name": "Bashir et al., 2020",
+                    "parent": 10916,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10936,
+                    "name": "NT",
+                    "parent": 603,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10946,
+                    "name": "Correa-Araneda et al., 2021",
+                    "parent": 10936,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10956,
+                    "name": "SNC",
+                    "parent": 603,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10966,
+                    "name": "Endeshaw et al. , 2022",
+                    "parent": 10956,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10976,
+                    "name": "PC",
+                    "parent": 603,
+                    "size": 30,
+                    "tool_tip": 3
+                },
+                {
+                    "id": 10986,
+                    "name": "Lasisi & Eluwole, 2021",
+                    "parent": 10976,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 10996,
+                    "name": "Ficetola & Rubolini, 2021",
+                    "parent": 10976,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11006,
+                    "name": "Moozhipurath et al., 2020",
+                    "parent": 10976,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11016,
+                    "name": "PT",
+                    "parent": 603,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11026,
+                    "name": "Liu et al., 2020",
+                    "parent": 11016,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11036,
+                    "name": "SPT",
+                    "parent": 603,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11046,
+                    "name": "Loch\u00e9 Fern\u00e1ndez-Ah\u00faja & Fern\u00e1ndez Mart\u00ednez, 2021",
+                    "parent": 11036,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11056,
+                    "name": "NCT",
+                    "parent": 603,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11066,
+                    "name": "M\u00e9ndez-Arriaga, 2020",
+                    "parent": 11056,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11076,
+                    "name": "I",
+                    "parent": 603,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 11086,
+                    "name": "Menebo, 2020",
+                    "parent": 11076,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11096,
+                    "name": "Tosepu et al., 2020",
+                    "parent": 11076,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11106,
+                    "name": "NC",
+                    "parent": 603,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11116,
+                    "name": "Wang et al., 2020",
+                    "parent": 11106,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11126,
+                    "name": "PCT",
+                    "parent": 603,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11136,
+                    "name": "Wu et al., 2021",
+                    "parent": 11126,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11146,
+                    "name": "NC",
+                    "parent": 701,
+                    "size": 60,
+                    "tool_tip": 6
+                },
+                {
+                    "id": 11156,
+                    "name": "Aidoo et al., 2021",
+                    "parent": 11146,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11166,
+                    "name": "Merow & Urban, 2020",
+                    "parent": 11146,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11176,
+                    "name": "Guo et al., 2020",
+                    "parent": 11146,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11186,
+                    "name": "Qi et al., 2020",
+                    "parent": 11146,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11196,
+                    "name": "\u015eahin, 2020",
+                    "parent": 11146,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11206,
+                    "name": "Weaver et al., 2022",
+                    "parent": 11146,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11216,
+                    "name": "PT",
+                    "parent": 701,
+                    "size": 80,
+                    "tool_tip": 8
+                },
+                {
+                    "id": 11226,
+                    "name": "Bu et al., 2020",
+                    "parent": 11216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11236,
+                    "name": "Baker et al., 2020",
+                    "parent": 11216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11246,
+                    "name": "Tzampoglou & Loukidis, 2020",
+                    "parent": 11216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11256,
+                    "name": "Islam et al., 2020 a, b",
+                    "parent": 11216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11266,
+                    "name": "Feng et al., 2020",
+                    "parent": 11216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11276,
+                    "name": "Faruk et al., 2022",
+                    "parent": 11216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11286,
+                    "name": "Auler et al., 2020",
+                    "parent": 11216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11296,
+                    "name": "Oliveiros et al., 2020",
+                    "parent": 11216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11306,
+                    "name": "NT",
+                    "parent": 701,
+                    "size": 70,
+                    "tool_tip": 7
+                },
+                {
+                    "id": 11316,
+                    "name": "Paraskevis, et al., 2021",
+                    "parent": 11306,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11326,
+                    "name": "Shakil et al., 2020",
+                    "parent": 11306,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11336,
+                    "name": "Sajadi et al., 2020",
+                    "parent": 11306,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11346,
+                    "name": "Babuna, et al., 2021",
+                    "parent": 11306,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11356,
+                    "name": "Correa-Araneda et al., 2021",
+                    "parent": 11306,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11366,
+                    "name": "Zoran et al., 2020",
+                    "parent": 11306,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11376,
+                    "name": "Mecenas et al., 2020",
+                    "parent": 11306,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11386,
+                    "name": "WPT",
+                    "parent": 701,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11396,
+                    "name": "Bherwani et al., 2020",
+                    "parent": 11386,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11406,
+                    "name": "WNT",
+                    "parent": 701,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 11416,
+                    "name": "Briz-Red\u00f3n & Serrano-Aroca, 2020",
+                    "parent": 11406,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11426,
+                    "name": "Poirier et al., 2020",
+                    "parent": 11406,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11436,
+                    "name": "I",
+                    "parent": 701,
+                    "size": 90,
+                    "tool_tip": 9
+                },
+                {
+                    "id": 11446,
+                    "name": "Tosepu et al., 2020",
+                    "parent": 11436,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11456,
+                    "name": "Hossain et al., 2021",
+                    "parent": 11436,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11466,
+                    "name": "Pahuja et al., 2021",
+                    "parent": 11436,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11476,
+                    "name": "Co\u015fkun et al., 2021",
+                    "parent": 11436,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11486,
+                    "name": "Shi et al., 2020",
+                    "parent": 11436,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11496,
+                    "name": "Rendana, 2020",
+                    "parent": 11436,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11506,
+                    "name": "Carleton et al., 2021",
+                    "parent": 11436,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11516,
+                    "name": "Pan et al., 2021",
+                    "parent": 11436,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11526,
+                    "name": "Meyer et al., 2020",
+                    "parent": 11436,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11536,
+                    "name": "PC",
+                    "parent": 701,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 11546,
+                    "name": "Sangkham et al., 2021",
+                    "parent": 11536,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11556,
+                    "name": "Dbouk and Drikakis, 2020b",
+                    "parent": 11536,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11566,
+                    "name": "SNC",
+                    "parent": 701,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 11576,
+                    "name": "Endeshaw et al. , 2022",
+                    "parent": 11566,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11586,
+                    "name": "Lorenzo et al., 2021",
+                    "parent": 11566,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11596,
+                    "name": "SPC",
+                    "parent": 701,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11606,
+                    "name": "Hridoy et al., 2021",
+                    "parent": 11596,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11616,
+                    "name": "PCM",
+                    "parent": 701,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11626,
+                    "name": "Islam, et al., 2021",
+                    "parent": 11616,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11636,
+                    "name": "SPT",
+                    "parent": 701,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11646,
+                    "name": "Lou et al., 2020",
+                    "parent": 11636,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11656,
+                    "name": "NM",
+                    "parent": 701,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 11666,
+                    "name": "Nottmeyer & Sera, 2021",
+                    "parent": 11656,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11676,
+                    "name": "Ma et al., 2020",
+                    "parent": 11656,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11686,
+                    "name": "NCM",
+                    "parent": 701,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11696,
+                    "name": "Sarkodie & Owusu, 2020",
+                    "parent": 11686,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11706,
+                    "name": "SNCM",
+                    "parent": 701,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11716,
+                    "name": "Wu et al., 2020b",
+                    "parent": 11706,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11726,
+                    "name": "PCT",
+                    "parent": 701,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11736,
+                    "name": "Wu et al., 2021",
+                    "parent": 11726,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11746,
+                    "name": "NT",
+                    "parent": 203,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 11756,
+                    "name": "Abdel-Aal et al., 2021",
+                    "parent": 11746,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11766,
+                    "name": "Correa-Araneda et al., 2021",
+                    "parent": 11746,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11776,
+                    "name": "PT",
+                    "parent": 203,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11786,
+                    "name": "Aidoo et al., 2021",
+                    "parent": 11776,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11796,
+                    "name": "I",
+                    "parent": 203,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11806,
+                    "name": "Hossain et al., 2021",
+                    "parent": 11796,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11816,
+                    "name": "SNT",
+                    "parent": 203,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11826,
+                    "name": "Loch\u00e9 Fern\u00e1ndez-Ah\u00faja & Fern\u00e1ndez Mart\u00ednez, 2021",
+                    "parent": 11816,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11836,
+                    "name": "SPC",
+                    "parent": 203,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11846,
+                    "name": "Sarkodie & Owusu, 2020",
+                    "parent": 11836,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11856,
+                    "name": "NC",
+                    "parent": 205,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11866,
+                    "name": "\u015eahin, 2020",
+                    "parent": 11856,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11876,
+                    "name": "PC",
+                    "parent": 205,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11886,
+                    "name": "Sarkodie & Owusu, 2020",
+                    "parent": 11876,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11896,
+                    "name": "NT",
+                    "parent": 206,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11906,
+                    "name": "Ahmadi, et al., 2020",
+                    "parent": 11896,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11916,
+                    "name": "PT",
+                    "parent": 206,
+                    "size": 30,
+                    "tool_tip": 3
+                },
+                {
+                    "id": 11926,
+                    "name": "Shakil et al., 2020",
+                    "parent": 11916,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11936,
+                    "name": "Aidoo et al., 2021",
+                    "parent": 11916,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11946,
+                    "name": "Islam et al., 2020 a, b",
+                    "parent": 11916,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11956,
+                    "name": "SPT",
+                    "parent": 206,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 11966,
+                    "name": "Endeshaw et al. , 2022",
+                    "parent": 11956,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11976,
+                    "name": "Co\u015fkun et al., 2021",
+                    "parent": 11956,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 11986,
+                    "name": "NC",
+                    "parent": 206,
+                    "size": 30,
+                    "tool_tip": 3
+                },
+                {
+                    "id": 11996,
+                    "name": "Faruk et al., 2022",
+                    "parent": 11986,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12006,
+                    "name": "Yuan et al., 2020",
+                    "parent": 11986,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12016,
+                    "name": "Stufano et al., 2021",
+                    "parent": 11986,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12026,
+                    "name": "WPC",
+                    "parent": 206,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12036,
+                    "name": "Guo et al., 2020",
+                    "parent": 12026,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12046,
+                    "name": "SNT",
+                    "parent": 206,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12056,
+                    "name": "Hossain et al., 2021",
+                    "parent": 12046,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12066,
+                    "name": "SPC",
+                    "parent": 206,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 12076,
+                    "name": "Rendana, 2020",
+                    "parent": 12066,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12086,
+                    "name": "Hridoy et al., 2021",
+                    "parent": 12066,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12096,
+                    "name": "NCM",
+                    "parent": 206,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12106,
+                    "name": "Islam, et al., 2021",
+                    "parent": 12096,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12116,
+                    "name": "I",
+                    "parent": 206,
+                    "size": 50,
+                    "tool_tip": 5
+                },
+                {
+                    "id": 12126,
+                    "name": "Menebo, 2020",
+                    "parent": 12116,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12136,
+                    "name": "Pahuja et al., 2021",
+                    "parent": 12116,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12146,
+                    "name": "Sera et al., 2021",
+                    "parent": 12116,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12156,
+                    "name": "Pan et al., 2021",
+                    "parent": 12116,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12166,
+                    "name": "Oliveiros et al., 2020",
+                    "parent": 12116,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12176,
+                    "name": "PC",
+                    "parent": 206,
+                    "size": 30,
+                    "tool_tip": 3
+                },
+                {
+                    "id": 12186,
+                    "name": "\u015eahin, 2020",
+                    "parent": 12176,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12196,
+                    "name": "Sarkodie & Owusu, 2020",
+                    "parent": 12176,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12206,
+                    "name": "Sangkham et al., 2021",
+                    "parent": 12176,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12216,
+                    "name": "PM",
+                    "parent": 301,
+                    "size": 40,
+                    "tool_tip": 4
+                },
+                {
+                    "id": 12226,
+                    "name": "Bassett et al., 2020",
+                    "parent": 12216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12236,
+                    "name": "Luo et al., 2020b",
+                    "parent": 12216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12246,
+                    "name": "Sarmadi et al., 2021",
+                    "parent": 12216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12256,
+                    "name": "Bryan et al., 2021",
+                    "parent": 12216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12266,
+                    "name": "PC",
+                    "parent": 301,
+                    "size": 50,
+                    "tool_tip": 5
+                },
+                {
+                    "id": 12276,
+                    "name": "Hong et al., 2021",
+                    "parent": 12266,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12286,
+                    "name": "Cox-Ganser & Henneberger, 2021",
+                    "parent": 12266,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12296,
+                    "name": "Jay et aL, 2020",
+                    "parent": 12266,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12306,
+                    "name": "Tai et al., 2020",
+                    "parent": 12266,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12316,
+                    "name": "Bowe et al., 2021",
+                    "parent": 12266,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12326,
+                    "name": "PCM",
+                    "parent": 301,
+                    "size": 30,
+                    "tool_tip": 3
+                },
+                {
+                    "id": 12336,
+                    "name": "Zelner et al., 2021",
+                    "parent": 12326,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12346,
+                    "name": "Torrats-Espinosa, 2021",
+                    "parent": 12326,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12356,
+                    "name": "Weaver et al., 2022",
+                    "parent": 12326,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12366,
+                    "name": "PT",
+                    "parent": 301,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12376,
+                    "name": "Zalla et al., 2021",
+                    "parent": 12366,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12386,
+                    "name": "PM",
+                    "parent": 302,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12396,
+                    "name": "Li et al., 2021a",
+                    "parent": 12386,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12406,
+                    "name": "PT",
+                    "parent": 302,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12416,
+                    "name": "Salerno et al., 2020",
+                    "parent": 12406,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12426,
+                    "name": "PT",
+                    "parent": 303,
+                    "size": 80,
+                    "tool_tip": 8
+                },
+                {
+                    "id": 12436,
+                    "name": "Ahmad et al., 2020",
+                    "parent": 12426,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12446,
+                    "name": "Qian et al., 2021",
+                    "parent": 12426,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12456,
+                    "name": "Lenward et al., 2021",
+                    "parent": 12426,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12466,
+                    "name": "Rader et al., 2020",
+                    "parent": 12426,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12476,
+                    "name": "Saloner et al., 2020",
+                    "parent": 12426,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12486,
+                    "name": "Leibowitz et al., 2021",
+                    "parent": 12426,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12496,
+                    "name": "Emeruwa et al., 2020",
+                    "parent": 12426,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12506,
+                    "name": "Weaver et al., 2022",
+                    "parent": 12426,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12516,
+                    "name": "PM",
+                    "parent": 303,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 12526,
+                    "name": "Esteve et al. , 2020",
+                    "parent": 12516,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12536,
+                    "name": "Bryan et al., 2021",
+                    "parent": 12516,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12546,
+                    "name": "PC",
+                    "parent": 303,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 12556,
+                    "name": "Hong et al., 2021",
+                    "parent": 12546,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12566,
+                    "name": "Kwok et al,, 2021",
+                    "parent": 12546,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12576,
+                    "name": "PCM",
+                    "parent": 303,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12586,
+                    "name": "Li et al., 2021a",
+                    "parent": 12576,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12596,
+                    "name": "WRCM",
+                    "parent": 304,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12606,
+                    "name": "Chakraborti et al., 2021",
+                    "parent": 12596,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12616,
+                    "name": "SNM",
+                    "parent": 304,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12626,
+                    "name": "Chaudhry et al., 2020",
+                    "parent": 12616,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12636,
+                    "name": "NM",
+                    "parent": 304,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12646,
+                    "name": "Liang et al. , 2020",
+                    "parent": 12636,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12656,
+                    "name": "I",
+                    "parent": 304,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12666,
+                    "name": "Lulbadda et al., 2021",
+                    "parent": 12656,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12676,
+                    "name": "PC",
+                    "parent": 304,
+                    "size": 30,
+                    "tool_tip": 3
+                },
+                {
+                    "id": 12686,
+                    "name": "Sarmadi et al., 2020",
+                    "parent": 12676,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12696,
+                    "name": "Sarmadi et al., 2021",
+                    "parent": 12676,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12706,
+                    "name": "Wu et al., 2021",
+                    "parent": 12676,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12716,
+                    "name": "PC",
+                    "parent": 305,
+                    "size": 40,
+                    "tool_tip": 4
+                },
+                {
+                    "id": 12726,
+                    "name": "\u015eahin, 2020",
+                    "parent": 12716,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12736,
+                    "name": "Li et al., 2021a",
+                    "parent": 12716,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12746,
+                    "name": "Ahmadi, et al., 2020",
+                    "parent": 12716,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12756,
+                    "name": "Duhon et al., 2021",
+                    "parent": 12716,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12766,
+                    "name": "SPCM",
+                    "parent": 305,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12776,
+                    "name": "Chakraborti et al., 2021",
+                    "parent": 12766,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12786,
+                    "name": "SPT",
+                    "parent": 305,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 12796,
+                    "name": "Lulbadda et al., 2021",
+                    "parent": 12786,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12806,
+                    "name": "Co\u015fkun et al., 2021",
+                    "parent": 12786,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12816,
+                    "name": "PT",
+                    "parent": 305,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 12826,
+                    "name": "Jamshidi et al., 2020",
+                    "parent": 12816,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12836,
+                    "name": "Jahangiri et al., 2020",
+                    "parent": 12816,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12846,
+                    "name": "PCM",
+                    "parent": 305,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 12856,
+                    "name": "Rockl\u00f6v and Sj\u00f6din\u00a0, 2020",
+                    "parent": 12846,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12866,
+                    "name": "Wu et al., 2021",
+                    "parent": 12846,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12876,
+                    "name": "PM",
+                    "parent": 305,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12886,
+                    "name": "Sarmadi et al., 2021",
+                    "parent": 12876,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12896,
+                    "name": "WPC",
+                    "parent": 305,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12906,
+                    "name": "Tzampoglou & Loukidis, 2020",
+                    "parent": 12896,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12916,
+                    "name": "PM",
+                    "parent": 306,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 12926,
+                    "name": "Luo et al., 2020b",
+                    "parent": 12916,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12936,
+                    "name": "Chaudhry et al., 2020",
+                    "parent": 12916,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12946,
+                    "name": "NC",
+                    "parent": 306,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12956,
+                    "name": "Duhon et al., 2021",
+                    "parent": 12946,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12966,
+                    "name": "PCM",
+                    "parent": 306,
+                    "size": 30,
+                    "tool_tip": 3
+                },
+                {
+                    "id": 12976,
+                    "name": "Sarmadi et al., 2021",
+                    "parent": 12966,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12986,
+                    "name": "Weaver et al., 2022",
+                    "parent": 12966,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 12996,
+                    "name": "Jay et aL, 2020",
+                    "parent": 12966,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13006,
+                    "name": "PT",
+                    "parent": 306,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13016,
+                    "name": "Li et al., 2021a",
+                    "parent": 13006,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13026,
+                    "name": "SPCM",
+                    "parent": 306,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13036,
+                    "name": "Maiti et al., 2021",
+                    "parent": 13026,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13046,
+                    "name": "PT",
+                    "parent": 401,
+                    "size": 50,
+                    "tool_tip": 5
+                },
+                {
+                    "id": 13056,
+                    "name": "Qian et al., 2021",
+                    "parent": 13046,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13066,
+                    "name": "Baniasad et al., 2021",
+                    "parent": 13046,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13076,
+                    "name": "Shao et al., 2021",
+                    "parent": 13046,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13086,
+                    "name": "Wu et al., 2021",
+                    "parent": 13046,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13096,
+                    "name": "Rader et al., 2020",
+                    "parent": 13046,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13106,
+                    "name": "PC",
+                    "parent": 401,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 13116,
+                    "name": "Li et al., 2021a",
+                    "parent": 13106,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13126,
+                    "name": "Chakraborti et al., 2021",
+                    "parent": 13106,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13136,
+                    "name": "WPT",
+                    "parent": 401,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 13146,
+                    "name": "Chinazzi et al., 2020",
+                    "parent": 13136,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13156,
+                    "name": "Poirier et al., 2020",
+                    "parent": 13136,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13166,
+                    "name": "SPC",
+                    "parent": 401,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13176,
+                    "name": "Eltoukhy et al. , 2020",
+                    "parent": 13166,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13186,
+                    "name": "PM",
+                    "parent": 401,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 13196,
+                    "name": "Luo et al., 2020b",
+                    "parent": 13186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13206,
+                    "name": "Hadjidemetriou et al., 2020",
+                    "parent": 13186,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13216,
+                    "name": "SPT",
+                    "parent": 401,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13226,
+                    "name": "Jamshidi et al., 2020",
+                    "parent": 13216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13236,
+                    "name": "PT",
+                    "parent": 403,
+                    "size": 60,
+                    "tool_tip": 6
+                },
+                {
+                    "id": 13246,
+                    "name": "Ahmad et al., 2020",
+                    "parent": 13236,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13256,
+                    "name": "Lenward et al., 2021",
+                    "parent": 13236,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13266,
+                    "name": "Rader et al., 2020",
+                    "parent": 13236,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13276,
+                    "name": "Emeruwa et al., 2020",
+                    "parent": 13236,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13286,
+                    "name": "Weaver et al., 2022",
+                    "parent": 13236,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13296,
+                    "name": "Rahman et al., 2020",
+                    "parent": 13236,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13306,
+                    "name": "NT",
+                    "parent": 403,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13316,
+                    "name": "Allen & Ibrahim, 2021",
+                    "parent": 13306,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13326,
+                    "name": "PC",
+                    "parent": 403,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 13336,
+                    "name": "Bowe et al., 2021",
+                    "parent": 13326,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13346,
+                    "name": "Cox-Ganser & Henneberger, 2021",
+                    "parent": 13326,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13356,
+                    "name": "WRT ",
+                    "parent": 403,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13366,
+                    "name": "Harvey et al., 2021",
+                    "parent": 13356,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13376,
+                    "name": "PTM",
+                    "parent": 403,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13386,
+                    "name": "Hong et al., 2021",
+                    "parent": 13376,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13396,
+                    "name": "SPC",
+                    "parent": 403,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13406,
+                    "name": "Kwok et al,, 2021",
+                    "parent": 13396,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13416,
+                    "name": "NM",
+                    "parent": 403,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13426,
+                    "name": "Liang et al. , 2020",
+                    "parent": 13416,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13436,
+                    "name": "SPCM",
+                    "parent": 501,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13446,
+                    "name": "Chakraborti et al., 2021",
+                    "parent": 13436,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13456,
+                    "name": "PCM",
+                    "parent": 501,
+                    "size": 40,
+                    "tool_tip": 4
+                },
+                {
+                    "id": 13466,
+                    "name": "Weaver et al., 2022",
+                    "parent": 13456,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13476,
+                    "name": "Sarmadi et al., 2021",
+                    "parent": 13456,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13486,
+                    "name": "Chaudhry et al., 2020",
+                    "parent": 13456,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13496,
+                    "name": "Sattar et al., 2020",
+                    "parent": 13456,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13506,
+                    "name": "PM",
+                    "parent": 501,
+                    "size": 60,
+                    "tool_tip": 6
+                },
+                {
+                    "id": 13516,
+                    "name": "Luo et al., 2020a",
+                    "parent": 13506,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13526,
+                    "name": "Luo et al., 2020b",
+                    "parent": 13506,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13536,
+                    "name": "Clark et al. , 2020",
+                    "parent": 13506,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13546,
+                    "name": "Guan et al., 2020",
+                    "parent": 13506,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13556,
+                    "name": "Grandjean et al. , 2020",
+                    "parent": 13506,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13566,
+                    "name": "Du et al., 2020",
+                    "parent": 13506,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13576,
+                    "name": "PC",
+                    "parent": 501,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13586,
+                    "name": "Duhon et al., 2021",
+                    "parent": 13576,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13596,
+                    "name": "NTM",
+                    "parent": 501,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13606,
+                    "name": "Li et al., 2021a",
+                    "parent": 13596,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13616,
+                    "name": "SPM",
+                    "parent": 501,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13626,
+                    "name": "Muniyappa & Gubbi, 2020",
+                    "parent": 13616,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13636,
+                    "name": "PM",
+                    "parent": 504,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 13646,
+                    "name": "Tai et al., 2020",
+                    "parent": 13636,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13656,
+                    "name": "Bryan et al., 2021",
+                    "parent": 13636,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13666,
+                    "name": "PC",
+                    "parent": 504,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 13676,
+                    "name": "Hong et al., 2021",
+                    "parent": 13666,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13686,
+                    "name": "Sarmadi et al., 2021",
+                    "parent": 13666,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13696,
+                    "name": "PT",
+                    "parent": 504,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13706,
+                    "name": "Salerno et al., 2020",
+                    "parent": 13696,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13716,
+                    "name": "PCM",
+                    "parent": 504,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13726,
+                    "name": "Weaver et al., 2022",
+                    "parent": 13716,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13736,
+                    "name": "PC",
+                    "parent": 505,
+                    "size": 30,
+                    "tool_tip": 3
+                },
+                {
+                    "id": 13746,
+                    "name": "Su et al., 2020",
+                    "parent": 13736,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13756,
+                    "name": "Lulbadda et al., 2021",
+                    "parent": 13736,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13766,
+                    "name": "Chaudhry et al., 2020",
+                    "parent": 13736,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13776,
+                    "name": "PM",
+                    "parent": 505,
+                    "size": 60,
+                    "tool_tip": 6
+                },
+                {
+                    "id": 13786,
+                    "name": "Liang et al. , 2020",
+                    "parent": 13776,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13796,
+                    "name": "Luo et al., 2020a",
+                    "parent": 13776,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13806,
+                    "name": "Clark et al. , 2020",
+                    "parent": 13776,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13816,
+                    "name": "Tzampoglou & Loukidis, 2020",
+                    "parent": 13776,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13826,
+                    "name": "Chen et al., 2021",
+                    "parent": 13776,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13836,
+                    "name": "Du et al., 2020",
+                    "parent": 13776,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13846,
+                    "name": "NC ",
+                    "parent": 505,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13856,
+                    "name": "Li et al., 2021a",
+                    "parent": 13846,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13866,
+                    "name": "NC",
+                    "parent": 505,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13876,
+                    "name": "Okeahalam et al., 2020",
+                    "parent": 13866,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13886,
+                    "name": "PCM",
+                    "parent": 505,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13896,
+                    "name": "Rahman et al., 2020",
+                    "parent": 13886,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13906,
+                    "name": "PM",
+                    "parent": 506,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13916,
+                    "name": "Peckham et al., 2020",
+                    "parent": 13906,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13926,
+                    "name": "PM",
+                    "parent": 412,
+                    "size": 90,
+                    "tool_tip": 9
+                },
+                {
+                    "id": 13936,
+                    "name": "Gupta et al., 2021",
+                    "parent": 13926,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13946,
+                    "name": "Anil and Alagha, 2020",
+                    "parent": 13926,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13956,
+                    "name": "Ogen, 2020",
+                    "parent": 13926,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13966,
+                    "name": "Luo et al., 2020b",
+                    "parent": 13926,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13976,
+                    "name": "Islam et al., 2020 a, b",
+                    "parent": 13926,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13986,
+                    "name": "Baniasad et al., 2021",
+                    "parent": 13926,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 13996,
+                    "name": "Magazzino et al., 2020",
+                    "parent": 13926,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14006,
+                    "name": "Pozzer et al., 2020",
+                    "parent": 13926,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14016,
+                    "name": "Mele & Magazzino, 2020",
+                    "parent": 13926,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14026,
+                    "name": "PC",
+                    "parent": 412,
+                    "size": 80,
+                    "tool_tip": 8
+                },
+                {
+                    "id": 14036,
+                    "name": "Zhu et al., 2020",
+                    "parent": 14026,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14046,
+                    "name": "Faruk et al., 2022",
+                    "parent": 14026,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14056,
+                    "name": "Stufano et al., 2021",
+                    "parent": 14026,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14066,
+                    "name": "Lorenzo et al., 2021",
+                    "parent": 14026,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14076,
+                    "name": "Frontera, 2020",
+                    "parent": 14026,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14086,
+                    "name": "Bashir et al., 2020",
+                    "parent": 14026,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14096,
+                    "name": "Zoran et al., 2020",
+                    "parent": 14026,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14106,
+                    "name": "Bowe et al., 2021",
+                    "parent": 14026,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14116,
+                    "name": "SPCM",
+                    "parent": 412,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14126,
+                    "name": "Chakraborti et al., 2021",
+                    "parent": 14116,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14136,
+                    "name": "PCM",
+                    "parent": 412,
+                    "size": 50,
+                    "tool_tip": 5
+                },
+                {
+                    "id": 14146,
+                    "name": "Coker et al., 2020",
+                    "parent": 14136,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14156,
+                    "name": "Lipsitt et al. , 2021",
+                    "parent": 14136,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14166,
+                    "name": "Travaglio et al., 2021",
+                    "parent": 14136,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14176,
+                    "name": "Weaver et al., 2022",
+                    "parent": 14136,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14186,
+                    "name": "Cole et al. , 2020",
+                    "parent": 14136,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14196,
+                    "name": "I",
+                    "parent": 412,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14206,
+                    "name": "Co\u015fkun et al., 2021",
+                    "parent": 14196,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14216,
+                    "name": "SPT",
+                    "parent": 412,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14226,
+                    "name": "Duhon et al., 2021",
+                    "parent": 14216,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14236,
+                    "name": "SPCT",
+                    "parent": 412,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14246,
+                    "name": "Fattorini & Rigoli, 2020",
+                    "parent": 14236,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14256,
+                    "name": "WPT",
+                    "parent": 412,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14266,
+                    "name": "Ficetola & Rubolini, 2021",
+                    "parent": 14256,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14276,
+                    "name": "SNC",
+                    "parent": 412,
+                    "size": 20,
+                    "tool_tip": 2
+                },
+                {
+                    "id": 14286,
+                    "name": "Sangkham et al., 2021",
+                    "parent": 14276,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14296,
+                    "name": "Hossain et al., 2021",
+                    "parent": 14276,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14306,
+                    "name": "SNM",
+                    "parent": 412,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14316,
+                    "name": "Ma et al., 2020",
+                    "parent": 14306,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14326,
+                    "name": "PT",
+                    "parent": 412,
+                    "size": 40,
+                    "tool_tip": 4
+                },
+                {
+                    "id": 14336,
+                    "name": "Paraskevis, et al., 2021",
+                    "parent": 14326,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14346,
+                    "name": "Setti et al., 2020a,",
+                    "parent": 14326,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14356,
+                    "name": "Sarmadi et al., 2021",
+                    "parent": 14326,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14366,
+                    "name": "Shakil et al., 2020",
+                    "parent": 14326,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14376,
+                    "name": "SPCM",
+                    "parent": 413,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14386,
+                    "name": "Chakraborti et al., 2021",
+                    "parent": 14376,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14396,
+                    "name": "I",
+                    "parent": 413,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14406,
+                    "name": "Eltoukhy et al. , 2020",
+                    "parent": 14396,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14416,
+                    "name": "PM",
+                    "parent": 413,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14426,
+                    "name": "Mele & Magazzino, 2020",
+                    "parent": 14416,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14436,
+                    "name": "SNCM",
+                    "parent": 414,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14446,
+                    "name": "Bashir et al., 2020",
+                    "parent": 14436,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14456,
+                    "name": "NC",
+                    "parent": 414,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14466,
+                    "name": "Faruk et al., 2022",
+                    "parent": 14456,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14476,
+                    "name": "PCM",
+                    "parent": 415,
+                    "size": 10,
+                    "tool_tip": 1
+                },
+                {
+                    "id": 14486,
+                    "name": "Chakraborti et al., 2021",
+                    "parent": 14476,
+                    "size": 10,
+                    "tool_tip": 1
+                }
+            ],
+            "transform": [
+                {
+                    "type": "stratify",
+                    "key": "id",
+                    "parentKey": "parent"
+                },
+                {
+                    "type": "tree",
+                    "method": {
+                        "signal": "layout"
+                    },
+                    "size": [
+                        1,
+                        {
+                            "signal": "radius"
+                        }
+                    ],
+                    "as": [
+                        "alpha",
+                        "radius",
+                        "depth",
+                        "children"
+                    ]
+                },
+                {
+                    "type": "formula",
+                    "expr": "(rotate + extent * datum.alpha + 270) % 360",
+                    "as": "angle"
+                },
+                {
+                    "type": "formula",
+                    "expr": "PI * datum.angle / 180",
+                    "as": "radians"
+                },
+                {
+                    "type": "formula",
+                    "expr": "inrange(datum.angle, [90, 270])",
+                    "as": "leftside"
+                },
+                {
+                    "type": "formula",
+                    "expr": "originX + datum.radius * cos(datum.radians)",
+                    "as": "x"
+                },
+                {
+                    "type": "formula",
+                    "expr": "originY + datum.radius * sin(datum.radians)",
+                    "as": "y"
+                }
+            ]
+        },
+        {
+            "name": "links",
+            "source": "tree",
+            "transform": [
+                {
+                    "type": "treelinks"
+                },
+                {
+                    "type": "linkpath",
+                    "shape": {
+                        "signal": "links"
+                    },
+                    "orient": "radial",
+                    "sourceX": "source.radians",
+                    "sourceY": "source.radius",
+                    "targetX": "target.radians",
+                    "targetY": "target.radius"
+                }
+            ]
+        }
+    ],
+    "scales": [
+        {
+            "name": "color",
+            "type": "linear",
+            "range": {
+                "scheme": "magma"
+            },
+            "domain": {
+                "data": "tree",
+                "field": "depth"
+            },
+            "zero": true
+        }
+    ],
+    "marks": [
+        {
+            "type": "path",
+            "from": {
+                "data": "links"
+            },
+            "encode": {
+                "update": {
+                    "x": {
+                        "signal": "originX"
+                    },
+                    "y": {
+                        "signal": "originY"
+                    },
+                    "path": {
+                        "field": "path"
+                    },
+                    "stroke": {
+                        "value": "#ccc"
+                    }
+                }
+            }
+        },
+        {
+            "type": "symbol",
+            "from": {
+                "data": "tree"
+            },
+            "encode": {
+                "enter": {
+                    "size": {
+                        "field": "size"
+                    },
+                    "stroke": {
+                        "value": "#fff"
+                    }
+                },
+                "update": {
+                    "x": {
+                        "field": "x"
+                    },
+                    "y": {
+                        "field": "y"
+                    },
+                    "fill": {
+                        "scale": "color",
+                        "field": "depth"
+                    },
+                    "tooltip": {
+                        "field": "tool_tip",
+                        "type": "quantitative"
+                    }
+                }
+            }
+        },
+        {
+            "type": "text",
+            "from": {
+                "data": "tree"
+            },
+            "encode": {
+                "enter": {
+                    "text": {
+                        "field": "name"
+                    },
+                    "fontSize": {
+                        "value": 7
+                    },
+                    "baseline": {
+                        "value": "middle"
+                    },
+                    "tooltip": {
+                        "field": "name",
+                        "type": "nominal"
+                    }
+                },
+                "update": {
+                    "x": {
+                        "field": "x"
+                    },
+                    "y": {
+                        "field": "y"
+                    },
+                    "dx": {
+                        "signal": "(datum.leftside ? -1 : 1) * 10"
+                    },
+                    "angle": {
+                        "signal": "datum.leftside ? datum.angle - 180 : datum.angle"
+                    },
+                    "align": {
+                        "signal": "datum.leftside ? 'right' : 'left'"
+                    },
+                    "opacity": {
+                        "signal": "labels ? 1 : 0"
+                    }
+                }
+            }
+        }
+    ]
+}
