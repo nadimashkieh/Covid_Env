@@ -8,40 +8,42 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
-<H1><CENTER>Covid and the Environment</CENTER></H1>
-<div id="vis"></div>
+  <H1><CENTER>Covid and the Environment</CENTER></H1>
+  <div id="vis"></div>
 
-<script type="text/javascript">
-  var spec = "https://raw.githubusercontent.com/nadimashkieh/Covid_Env/main/covid_env_vega.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  <script type="text/javascript">
+    var spec = "https://raw.githubusercontent.com/nadimashkieh/Covid_Env/main/covid_env_vega.json";
+    vegaEmbed('#vis', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
+    }).catch(console.error);
   
-  //console.log(result.view);
-</script>
-<style>
-  table {
-  border-collapse: collapse;
-  border: 1px solid black;
-} 
+    //console.log(result.view);
+  </script>
 
-table.a {
-  table-layout: auto;
-  width: 100%;  
-}  
+  <style>
+  table {
+    border-collapse: collapse;
+    border: 1px solid black;
+  } 
+
+  table.a {
+   table-layout: auto;
+   width: 100%;  
+  }  
 </style>
+  
 <table class="a">
-  <tr><th>code</th><th>	name</th><th>	type</th></tr>
-  <tr><td>  P	</tb><tb>Positive	Polarity</td></tr>
-<tr><td>	N	</tb><tb>Negative	Polarity</td></tr>
-<tr><td>	U	</tb><tb>Nuetral	Polarity</td></tr>
-<tr><td>	S	</tb><tb>Significant	Intensity</td></tr>
-<tr><td>	R	</tb><tb>Relational	Intensity</td></tr>
-<tr><td>	W	</tb><tb>Weak	Intensity</td></tr>
-<tr><td>	I	</tb><tb>Insignificant	Intensity</td></tr>
-<tr><td>	T	</tb><tb>Transmission	Mode</td></tr>
-<tr><td>	C	</tb><tb>Cases	Mode</td></tr>
-  <tr><td>	M</tb><tb>	Mortality	Mod</td></tr>
+   <tr><th>code</th><th>	name</th><th>	type</th></tr>
+   <tr><td>P</td><td>Positive	Polarity</td></tr>
+   <tr><td>N</td><td>Negative	Polarity</td></tr>
+   <tr><td>U</td><td>Nuetral	Polarity</td></tr>
+   <tr><td>S</td><td>Significant	Intensity</td></tr>
+   <tr><td>R</td><td>Relational	Intensity</td></tr>
+   <tr><td>W</td><td>Weak	Intensity</td></tr>
+   <tr><td>I</td><td>Insignificant	Intensity</td></tr>
+   <tr><td>T</td><td>Transmission	Mode</td></tr>
+   <tr><td>C</td><td>Cases	Mode</td></tr>
+   <tr><td>M</td><td>	Mortality	Mod</td></tr>
   </table>
 </body>
 </html>
