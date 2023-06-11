@@ -19,7 +19,18 @@
   
   //console.log(result.view);
 </script>
-<table>
+<style>
+  table {
+  border-collapse: collapse;
+  border: 1px solid black;
+} 
+
+table.a {
+  table-layout: auto;
+  width: 100%;  
+}  
+</style>
+<table class="a">
   <tr><th>code</th><th>	name</th><th>	type</th></tr>
   <tr><td>  P	</tb><tb>Positive	Polarity</td></tr>
 <tr><td>	N	</tb><tb>Negative	Polarity</td></tr>
