@@ -1,46 +1,111 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-  <!-- Import vega-embed -->
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-</head>
+    <!-- Nada Dimashkieh Chehab - PhD Candidate - The University of Central Florida -->
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+
+    <!-- Import vega-embed -->
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://vega.github.io/favicon.ico"/>
+    <link rel="stylesheet" href="/vega/assets/syntax.css">
+    <link rel="stylesheet" href="/vega/assets/main.css">
+<meta charset="UTF-8">
+
+<title>Visualization of Environmental Factors Impacting Covid-19 as Researched in Literature</title>
+<style>
+	*{
+		margin:0;
+	}
+	.wrap{
+		width:1200px;             
+		margin:auto;
+		background:;
+		height:120px;
+		background:;
+		font-family: 'Palatino', san-serif;
+		color:#black;
+	}
+	.nav{
+		height:10px;
+		background:#000;
+	}
+	.container{
+		background:green;
+	}
+	.left{
+		width:5%;
+		height:200px;
+		float:left;
+		background:#999;
+	}
+	.right{
+		width:90%;
+		height:200px;
+		float:left;
+	}
+	.clear{
+		clear:both;    
+	}
+	.footer{
+		height:90px;
+		width:600px;
+		background:#white;
+	}
+	table {
+		border-collapse: collapse;
+		border: 1px solid black;
+	} 
+    
+	th,td {
+		border: 1px solid black;
+	}
+    
+	table.a {
+		table-layout: fixed;
+		width: 600px;  
+		}  
+</style>
+
+<head>
 <body>
-  <H1><CENTER>Covid and the Environment</CENTER></H1>
-  <div id="vis"></div>
+	<div class="wrap">
+		<div class="header">
+			<br>
+    			<H2><span style="color:blue">Visualization of Environmental Factors Impacting Covid-19 as Researched in Literature</title></span></H2>
+			<br>
+			<p align="justify"> The hierarchy, positioned in polar coordinates using Vega’s <a href="https://vega.github.io/vega/docs/transforms/tree">tree</a>, is a visual representation of the types and relationships of environmental factors (Meteorological, Human Activity, Socioeconomic and Health) impacting the course of the COVID-19 pandemic. The study data are comprised of representative sample of relevant literature.  The node size (hovered-over value) highlights the number of the coded finding(s) corresponding to the relative article(s). The table outlines the keys for the coded findings describing the relationship in terms of: Intensity, Polarity, and Measure (Note: Positive: indicates direct relation, Negative indicates inverse relation, and R a relation).
+<br><br>
+		</div>
 
-  <script type="text/javascript">
-    var spec = "https://raw.githubusercontent.com/nadimashkieh/Covid_Env/main/covid_env_vega.json";
-    vegaEmbed('#vis', spec).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-  
-    //console.log(result.view);
-  </script>
+		<div class="page-centered page-main">
+			<center>
+			<table class="a">
+				<tr><th colspan="2">Intensity</th><th colspan="2">Polarity</th><th colspan="2">Measure</th></tr>
+				<center><tr><td><center>S</center></td><td><center>Significant</center></td><td><center>P</center></td><td><center>Positive</center></td><td><center>C</center></td><td><center>Cases</center></td></tr>
+				<tr><td><center>W</center></td><td><center>Weak</center></td><td><center>N</center></td><td><center>Negative</center></td><td><center>T</center></td><td><center>Transmission</center></td></tr>
+				<tr><td><center>I</center></td><td><center>Insignificant</center></td><td><center>R</center></td><td><center>Relational</center></td><td><center>M</center></td><td><center>Mortality</center></td></tr>
+			</table>
+			</center>
+			<br><br>
 
-  <style>
-    table {
-       border-collapse: collapse;
-       border: 1px solid black;
-     } 
-    
-    th,td {
-      border: 1px solid black;
-    }
-    
-    table.a {
-      table-layout: auto;
-      width: 250px;  
-    }  
-  </style>
-  
-  <table class="a">
-     <tr><th colspan="2">Intensity</th><th colspan="2">Polarity</th><th colspan="2">Mode</th></tr>
-     <tr><td>S</td><td>Significant</td><td>P</td><td>Positive</td><td>C</td><td>Cases</td></tr>
-     <tr><td>W</td><td>Weak</td><td>N</td><td>Negative</td><<td>T</td><td>Transmission</td></tr>
-     <tr><td>I</td><td>Insignificant</td><td>R</td><td>Relational</td><td>M</td><td>Mortality</td></tr>
-    </table>
+			<div id="vis"> </div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	  //var spec = "https://raw.githubusercontent.com/nadimashkieh/Covid_Env/main/covid_env_vega.json";
+	  var spec = "http://localhost/~adel/covid_env_vega.json";
+	  vegaEmbed('#vis', spec).then(function(result) {
+	    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+	  }).catch(console.error);
+	  
+	  //console.log(result.view);
+	</script>
+
 </body>
 </html>
