@@ -78,7 +78,7 @@
     "data": [
         {
             "name": "tree",
-            "url": "https://github.com/nadimashkieh/Covid_Env/blob/main/env.json",
+            "url": "https://raw.githubusercontent.com/nadimashkieh/Covid_Env/main/env.json",
             "transform": [
                 {
                     "type": "stratify",
